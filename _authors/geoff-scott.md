@@ -1,18 +1,8 @@
 ---
-name: "Geoff Scott"
-role: "CTO at OneEleven · Executive Coach at Growth Science"
-avatar: ""
-bio: >
-  Building a financial wellness company, coaching executives, serving on nonprofit
-  boards, and figuring out what leadership looks like when AI changes everything.
-  Based in the Hudson Valley, NY.
-links:
-  - label: "GitHub"
-    icon: "fab fa-fw fa-github"
-    url: "https://github.com/geoffscott"
-  - label: "LinkedIn"
-    icon: "fab fa-fw fa-linkedin"
-    url: "https://linkedin.com/in/geoffscott"
+title: "Geoff Scott"
+layout: single
+permalink: /authors/geoff-scott/
+author_profile: true
 ---
 
 I'm the CTO at [OneEleven](https://oneeleven.com), a financial wellness company where we're building technology that helps people improve their relationship with money — and learning what it means to lead a team with genuine care.

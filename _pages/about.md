@@ -41,13 +41,13 @@ Stories from people doing the real work — building organizations, raising kids
 
 We write through four lenses:
 
-**[#BuiltWithCare](/kindnessflywheel-site/tags/#builtwithcare)** — How does care show up in what we build?
+**#BuiltWithCare** — How does care show up in what we build?
 
-**[#TheRealMoat](/kindnessflywheel-site/tags/#therealmoat)** — What actually makes a business defensible now?
+**#TheRealMoat** — What actually makes a business defensible now?
 
-**[#RaiseThemKind](/kindnessflywheel-site/tags/#raisethemkind)** — What do we teach the next generation?
+**#RaiseThemKind** — What do we teach the next generation?
 
-**[#InTheWild](/kindnessflywheel-site/tags/#inthewild)** — What happens when these ideas meet real organizations?
+**#InTheWild** — What happens when these ideas meet real organizations?
 
 ## How to Contribute
 

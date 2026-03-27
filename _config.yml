@@ -24,7 +24,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-# Author (default)
+# Author (site-wide default for sidebar)
 author:
   name: "Geoff Scott"
   bio: "CTO at OneEleven. Executive coach at Growth Science. Building with care."
@@ -36,9 +36,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/geoffscott"
-
-# Site author (sidebar)
-author_profile: true
 
 # Reading
 words_per_minute: 200
@@ -71,7 +68,7 @@ defaults:
       path: ""
       type: authors
     values:
-      layout: author
+      layout: single
       author_profile: true
 
 # Pagination
@@ -84,9 +81,3 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/kindnessflywheel/kindnessflywheel-site"
-
-# Analytics (add later)
-# analytics:
-#   provider: "google-gtag"
-#   google:
-#     tracking_id: ""
