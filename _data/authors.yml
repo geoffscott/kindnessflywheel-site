@@ -1,0 +1,11 @@
+Geoff Scott:
+  name: "Geoff Scott"
+  bio: "CTO at OneEleven. Executive coach at Growth Science. Building with care."
+  location: "Hudson Valley, NY"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/geoffscott"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/geoffscott"
