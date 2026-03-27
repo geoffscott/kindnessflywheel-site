@@ -72,3 +72,8 @@ footer:
 # Include
 include:
   - _pages
+
+# Search
+search: true
+search_full_content: true
+search_provider: lunr
