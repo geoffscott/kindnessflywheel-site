@@ -6,7 +6,7 @@ A groundswell of thinking about human-centered leadership in the age of AI.
 
 As artificial intelligence commoditizes technical capability across every domain, the last defensible competitive advantage becomes what machines can't replicate: genuine care for people and authentic trust.
 
-This isn't theory. It's what we're learning from building organizations, coaching leaders, and running businesses where kindness and human dignity aren't soft values—they're how we compete and win.
+This isn't theory. It's what we're learning from building organizations, coaching leaders, and running businesses where kindness and human dignity aren't soft values — they're how we hit our numbers.
 
 The **Kindness Flywheel** is open-source infrastructure for ideas about how leaders build trust, culture, and belonging at scale. It's a place to share what's actually working, what surprised us, and what we're learning as we figure this out.
 
@@ -16,27 +16,16 @@ Everyone will soon have access to the same AI tools. Everyone will have optimal 
 
 **Trust.** The trust people feel because you actually care. The trust that's earned through consistency, through showing up, through treating people as humans and not resources.
 
-That trust can't be commoditized. It can't be optimized away. It's the real moat.
+You still need expertise, access, competence, and capital. Those are table stakes. But without genuine human connection, they're not enough anymore. Kindness is the hardest-nosed business strategy available when AI levels the playing field.
 
-## How This Works
+## The Four Lenses
 
-We share stories and insights from real work:
-- Building culture and trust inside organizations
-- Leading when everything is changing
-- The business case for putting humanity first
-- Learning from mistakes and surprises
+Every post is a Kindness Flywheel story told through one or more of these:
 
-Each post is grounded in lived experience, not theory.
-
-### The Five Topics
-
-All content falls into one or more of these buckets:
-
-- **#KindnessFlywheel** — The core thesis. Every post carries this.
-- **#HamsterWheel** — Breaking free from the myths that keep us trapped. Personal journeys out.
-- **#MoatShift** — Why technical moats are disappearing and what replaces them.
-- **#CultureAsStrategy** — How to actually build trust and belonging as a structural business advantage.
-- **#LeadershipJourney** — Real stories from leading through change. What works, what doesn't.
+- **#BuiltWithCare** — How does care show up in what we build? Technical stories, product decisions, building with AI agents and intention.
+- **#TheRealMoat** — What actually makes a business defensible now? Strategy, differentiation, funding, and what happens when everything is commoditized.
+- **#RaiseThemKind** — What do we teach the next generation? Empathy, creativity, imagination, communication, compassion — the human capabilities AI can't replace.
+- **#InTheWild** — What happens when these ideas meet real organizations? Stories from the field, unpolished and honest.
 
 ## How to Contribute
 
@@ -51,7 +40,7 @@ If you're learning something in your own work that belongs in this conversation,
    title: Your Post Title
    author: Your Name
    date: YYYY-MM-DD
-   hashtags: [#KindnessFlywheel, #OtherTopicTag]
+   hashtags: [#BuiltWithCare, #InTheWild]
    ---
    
    Your story and insights here...
@@ -60,31 +49,17 @@ If you're learning something in your own work that belongs in this conversation,
 
 That's it. Write from your experience. Be honest. Tell the real story.
 
+See [CONTRIBUTOR_GUIDE.md](CONTRIBUTOR_GUIDE.md) for full guidelines.
+
 ## How to Cite
 
-All content is licensed under CC-BY 4.0, so feel free to use, quote, and build on these ideas.
-
-When citing:
-
-**In text:**  
-"As Geoff Scott observed..." or "According to research in the Kindness Flywheel..."
-
-**Full citation:**  
-Scott, G. (2026). Post Title. *Kindness Flywheel*. Retrieved from https://github.com/kindnessflywheel/kindnessflywheel-site/blob/main/_posts/YYYY-MM-DD-post-title.md
-
-We don't need formal academic citations. Just credit the author and link back.
+All content is licensed under CC-BY 4.0, so feel free to use, quote, and build on these ideas. Just credit the author and link back.
 
 ## License
 
 All content in this repository is licensed under **Creative Commons Attribution 4.0 International (CC-BY 4.0)**.
 
-You're free to:
-- Read, share, and quote
-- Remix and build on
-- Use for commercial or non-commercial purposes
-- Translate and adapt
-
-The only requirement: credit the original author.
+You're free to read, share, quote, remix, and build on everything here — for any purpose. The only requirement: credit the original author.
 
 [Full license text](https://creativecommons.org/licenses/by/4.0/)
 
@@ -96,4 +71,4 @@ If you have something to share, we're listening.
 
 ---
 
-*The Kindness Flywheel isn't about Geoff or any one person. It's about the ideas. If they're useful, use them. If they spread, great. That's the whole point.*
+*The Kindness Flywheel isn't about any one person. It's about the ideas. If they're useful, use them. If they spread, great. That's the whole point.*

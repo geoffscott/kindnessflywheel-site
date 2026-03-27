@@ -8,17 +8,17 @@ Help the contributor write and submit a post based on their real experience. You
 
 ## Before You Start
 
-Read `CONTRIBUTOR_GUIDE.md` for full editorial guidelines, post format, and the five topic hashtags.
+Read `CONTRIBUTOR_GUIDE.md` for full editorial guidelines, post format, and the four lenses.
 
 ## Workflow
 
 1. **Understand what they want to share.** Ask about their experience: what happened, what they learned, what surprised them. Don't start writing until you understand the story.
 
-2. **Help them choose hashtags.** Every post carries `#KindnessFlywheel`. Help them identify which of the other four topics their story fits:
-   - `#HamsterWheel` — Breaking free from cultural myths
-   - `#MoatShift` — Why traditional competitive advantages are disappearing
-   - `#CultureAsStrategy` — Building trust as a business structure
-   - `#LeadershipJourney` — Real leadership experience and learning
+2. **Help them choose lenses.** Every post uses one or more of these four:
+   - `#BuiltWithCare` — How care shows up in what we build
+   - `#TheRealMoat` — What makes a business defensible when AI levels the field
+   - `#RaiseThemKind` — What we teach the next generation
+   - `#InTheWild` — What happens when these ideas meet real organizations
 
 3. **Draft the post together.** Write in their voice, not yours. Keep it grounded in what actually happened. Aim for 800-2000 words, but let the story dictate the length.
 
@@ -28,7 +28,7 @@ Read `CONTRIBUTOR_GUIDE.md` for full editorial guidelines, post format, and the 
    title: Post Title
    author: Contributor Name
    date: YYYY-MM-DD
-   hashtags: [#KindnessFlywheel, #OtherTopic]
+   hashtags: [#BuiltWithCare, #InTheWild]
    ---
    ```
 

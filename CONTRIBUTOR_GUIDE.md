@@ -8,14 +8,14 @@ Stories and insights from people doing the real work of leading with kindness, b
 
 We want **lived experience**. Not theory, not thought leadership, not advice columns. What happened? What did you learn? What surprised you?
 
-## The Five Topics
+## The Four Lenses
 
-Every post carries `#KindnessFlywheel` plus one or more of these:
+Every post uses one or more of these lenses:
 
-- **#HamsterWheel** — Breaking free from cultural myths about success, status, and the grind. Personal journeys out of the trap.
-- **#MoatShift** — Why technical and traditional competitive advantages are disappearing. What replaces them in the age of AI.
-- **#CultureAsStrategy** — How to build trust, belonging, and genuine care as a structural business advantage. The operational side.
-- **#LeadershipJourney** — Real stories from leading through change. What works, what doesn't, what you'd do differently.
+- **#BuiltWithCare** — How does care show up in what we build? Technical stories, product decisions, building with intention.
+- **#TheRealMoat** — What actually makes a business defensible now? Strategy, differentiation, what happens when everything is commoditized.
+- **#RaiseThemKind** — What do we teach the next generation? Empathy, creativity, imagination, communication, compassion.
+- **#InTheWild** — What happens when these ideas meet real organizations? Stories from the field.
 
 ## Post Format
 
@@ -30,7 +30,7 @@ Every post is a markdown file in the `_posts/` directory.
 title: Your Post Title
 author: Your Name
 date: YYYY-MM-DD
-hashtags: [#KindnessFlywheel, #LeadershipJourney]
+hashtags: [#BuiltWithCare, #InTheWild]
 ---
 
 Your story here.
@@ -50,7 +50,7 @@ Say what you need to say, then stop.
 
 **Show what you learned.** Not what you already knew. The interesting part is always what changed in your thinking.
 
-**Be honest about what didn't work.** The Kindness Flywheel isn't about performing kindness. It's about what actually happens when you lead with genuine care—including the messy parts.
+**Be honest about what didn't work.** The Kindness Flywheel isn't about performing kindness. It's about what actually happens when you lead with genuine care — including the messy parts.
 
 **Write in your voice.** Don't try to sound like anyone else. Your perspective is the contribution.
 
