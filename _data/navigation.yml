@@ -1,8 +1,6 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Author"
-    url: /authors/geoff-scott/
   - title: "Posts by Lens"
     url: /tags/
   - title: "Contribute"
