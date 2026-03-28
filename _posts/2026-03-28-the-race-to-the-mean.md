@@ -40,7 +40,9 @@ It is, however, a very practical threat to everyone else. The other 490 companie
 
 ## What the Data Actually Says
 
-**Technical convergence is accelerating.** The Stanford AI Index, Menlo Ventures, and Artificial Analysis all document the same pattern: model capability is converging rapidly, costs are collapsing, and first-mover advantage from a new model version lasts roughly six to eight weeks before competitors match it. At the model layer, the race to the mean is effectively over.
+**Technical convergence is accelerating — and it starts with AI but doesn't end there.** The Stanford AI Index, Menlo Ventures, and Artificial Analysis all document the same pattern at the model layer: capability is converging rapidly, costs are collapsing, and first-mover advantage from a new model version lasts roughly six to eight weeks before competitors match it. At the model layer, the race to the mean is effectively over.
+
+But the model layer is just where convergence is most visible and most measurable. The same dynamic is coming for every business that depends on technical differentiation. If the most sophisticated AI products on earth — built by the best-funded teams alive — converge to parity in months, what happens to your SaaS product? Your consulting practice? Your financial services platform? AI doesn't just commoditize AI companies. It commoditizes the technical capability of *every* company. The only businesses this doesn't immediately threaten are the few monopolies with structural advantages that have nothing to do with technical capability.
 
 **But most companies can't convert AI into results.** 95% of enterprise AI initiatives produce no measurable P&L impact. 42% of companies abandoned most of their AI projects in 2025, up from 17% the year before. The problem isn't the technology — it's the organizational layer. The companies that succeed with AI aren't the ones with the best models. They're the ones where people work well together.
 
