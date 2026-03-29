@@ -14,9 +14,7 @@ Something isn't adding up. Your team is shipping faster than ever. Your product 
 
 I've spent the last year watching this from multiple seats — as CTO of a financial wellness company, as an executive coach working with founders and leaders, and as someone building with AI agents every day. The pattern is the same everywhere: the technical layer is converging fast, and the people who are winning aren't winning on technology alone. They're winning because people trust them — on top of everything else they do well.
 
-This publication exists to explore a question: **What happens when we stop extracting from people and start investing in their flourishing?**
-
-I think the answer changes everything about how we compete, how we lead, and how we build.
+This publication exists to explore a question: **What happens when we invest in people's flourishing — not just as a value, but as a business strategy?** I think the answer changes everything about how we compete, how we lead, and how we build.
 
 ## Something Broke
 
@@ -50,7 +48,7 @@ Here's what's emerging, and it's directionally consistent across every major sur
 
 **Trust is the multiplier.** BCG surveyed over 10,000 people and found that strong leadership support raises employee positivity about AI from 15% to 55% — a 3.7x increase and the single most powerful lever in AI adoption. Workers who use AI in environments of trust and psychological safety burn out 24% less than those who don't.
 
-**Non-extractive models outperform in knowledge work.** Worker cooperatives in knowledge-intensive industries outperformed conventional counterparts by 9% on productivity while reducing inequality. When Microsoft dropped stack ranking in 2013, its stock went from $37 to $460 under Nadella — though that's suggestive, not causal, since Azure, Office 365, and the OpenAI investment played major roles.
+**People-centered models outperform in knowledge work.** Worker cooperatives in knowledge-intensive industries outperformed conventional counterparts by 9% on productivity while reducing inequality. When Microsoft dropped stack ranking in 2013, its stock went from $37 to $460 under Nadella — though that's suggestive, not causal, since Azure, Office 365, and the OpenAI investment played major roles.
 
 ## The Doctor in the Room
 
@@ -78,7 +76,7 @@ I want to be precise. Kindness isn't niceness. It's not conflict avoidance or lo
 
 And it has to be real. You can train people to perform the behaviors of care — active listening, empathetic language, patient communication. But if those same employees see contradictory behavior in how the company treats them — in its policies, in their interactions with supervisors, in how they're measured and managed — the performance falls apart. Customers feel the difference. The feelings can't be faked. You can mimic kindness, but mimicking isn't being.
 
-This is why the flywheel has to run through every layer of the organization. If the board treats the company as an extraction vehicle, that cascades to the CEO, to managers, to the frontline. No amount of customer empathy training fixes a system that's extractive at its core. And as AI gets better at generating perfect empathetic language, the gap between performed care and authentic care becomes the only remaining differentiator. AI will sound kind. The question is whether your organization actually is.
+This is why the flywheel has to run through every layer of the organization. When care is genuine from the board through the CEO through managers to the frontline, it compounds at every level. When any layer is extractive, the chain breaks — and no amount of customer empathy training at the frontline can repair it. And as AI gets better at generating perfect empathetic language, the gap between performed care and authentic care becomes the only remaining differentiator. AI will sound kind. The question is whether your organization actually is.
 
 This is a hypothesis, not a proven theorem. The data supports trust-based, human-centered cultures as performance drivers. The specific claim that kindness — as a named philosophy — produces measurable business advantage requires more evidence than currently exists.
 
@@ -88,11 +86,9 @@ The word the data uses is trust. The thing that produces trust is care. And care
 
 ## Everything Else Is Converging. Kindness Diverges.
 
-I don't want to oversell this. Extraction works — for a while, for some companies. If you're a monopoly with structural advantages that insulate you from competitive pressure, you can sustain it longer than most.
+For the vast majority of companies — everyone without monopoly-scale structural advantages — the AI era changes the calculus. When any competitor can match your capabilities in months, what's left is whether people trust you. Your employees, your customers, your partners.
 
-If you're everyone else — and you almost certainly are — the AI era changes the calculus. When any competitor can match your capabilities in months, what's left is whether people trust you. Your employees, your customers, your partners.
-
-That trust can't be automated. It can't be manufactured. It can't be extracted. It has to be earned.
+That trust is earned through genuine care, practiced consistently, embedded in how the organization actually works.
 
 ## What This Is
 
