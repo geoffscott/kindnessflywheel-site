@@ -64,7 +64,7 @@ The one who listened. The one who made you feel like a person, not a chart. Rese
 
 AI sharpens this. When both doctors have the same diagnostic capability, the human layer is all that differentiates them.
 
-This generalizes. Lawyers who listen versus lawyers who bill. Consultants who care about your problem versus consultants who present frameworks. Financial advisors who understand your fear versus ones who optimize your portfolio. In every knowledge profession, AI compresses the expertise layer and exposes the human layer underneath.
+This generalizes across every knowledge profession. Two lawyers, both competent, both billing — but one also listens. Two consultants, both presenting frameworks — but one also genuinely cares about your problem. Two financial advisors, both optimizing your portfolio — but one also understands the fear driving your decisions. The technical work is the same. The human layer is what separates them. And as AI compresses the expertise layer, that human layer is all that's left to differentiate.
 
 ## What We Mean by Kindness
 
