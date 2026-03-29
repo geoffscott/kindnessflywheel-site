@@ -5,92 +5,118 @@ date: 2026-03-28
 tags:
   - TheRealMoat
 excerpt: >
-  AI commoditizes capabilities. Every category races to the mean. For the
-  vast majority of companies, the question isn't whether your moat is
-  eroding — it's what replaces it.
+  Everyone's talking about what AI replaces. Nobody's talking about what it
+  can't. We think kindness might be the answer — and we're building a
+  community to find out.
 ---
 
-The gap between the best AI model built in the United States and the best AI model built in China shrank from 17.5 percentage points to 0.3 in a single year. The gap between open-source and closed-source models went from 8% to 1.7%. GPT-4 level intelligence is now 100x cheaper than when it launched. Feature-level replication takes hours to days.
+Everyone's talking about what AI replaces. Nobody's talking about what it can't.
 
-That's not a trend. That's a collapse. Every business category built on technical differentiation is racing toward the mean — same tools, same speed, same quality.
+I've spent the last year watching this play out from multiple seats — as CTO of a financial wellness company, as an executive coach working with founders and leaders, and as someone building with AI agents every day. What I keep seeing is the same pattern: the technical layer is converging fast, and the people who are winning aren't winning because of their technology. They're winning because people trust them.
 
-The question isn't whether your moat is eroding. It is. The question is what replaces it.
+This publication exists to explore a question: **What happens when we stop extracting from people and start investing in their flourishing?**
+
+I think the answer changes everything about how we compete, how we lead, and how we build. But I'm not sure yet. That's why this is a community, not a manifesto.
+
+## Something Broke
+
+The gap between the best AI models in the world shrank from a 17.5 percentage point lead to 0.3 in a single year. Open-source models closed an 8% gap to 1.7%. GPT-4 level capability is 100x cheaper than when it launched. Feature-level replication takes hours to days.
+
+That's the AI model layer — but it's just where convergence is most visible. The same dynamic is hitting every business built on knowledge, information, and expertise. Management consulting: McKinsey announced its first significant headcount reduction after a decade of growth. Accounting: KPMG forced a 14% fee cut from its own auditor, citing AI-driven savings — then inadvertently showed every client how to demand the same from them. Legal: Goldman Sachs estimates 40% of legal tasks can be automated, and a new firm called Pierson Ferdinand launched explicitly as a "junior-free" model. Media: writing jobs on Upwork dropped 32% in a year.
+
+This isn't a tech story. It's a knowledge economy story. 40-50% of U.S. GDP comes from knowledge work, and the execution layer of virtually all of it is being compressed.
+
+When the execution layer compresses, what's left?
 
 ## The Machine We Built
 
-There's an operating philosophy underneath most organizations that nobody names out loud. It's not just competition — it's **extraction**. The entire system is designed to maximize output from people while minimizing cost.
+Most organizations run on an operating philosophy nobody names out loud: **extraction**. The system is designed to maximize output from people while minimizing cost.
 
-We call employees "resources" and track their "utilization." We set up forced ranking systems where someone has to lose for someone else to win. We build compensation structures that reward individual capture over collective creation. We operate under the assumption that boards have a fiduciary duty to maximize shareholder value — an assumption that legal scholars have repeatedly shown is a norm, not a law. Delaware, which governs most large U.S. corporations, does not require it. But we act as if it does, because the extractive logic is so deeply embedded that questioning it feels naive.
+We call employees "resources" and track their "utilization." We build forced ranking systems where someone has to lose for someone else to win. We operate under the assumption that boards must maximize shareholder value — an assumption legal scholars have shown is a norm, not a law. Delaware doesn't require it. But we act as if it does, because the extractive logic is so embedded that questioning it feels naive.
 
-This isn't abstract. It's measurable:
+The results are measurable. 45% of U.S. workers report burnout — not a spike, a flat line. Employee engagement hit an 11-year low in 2024; Gallup calls it "The Great Detachment." Only 16% of employees express high trust in their employers. In January 2025, Meta cut 5% of its workforce targeting "lowest performers" and Microsoft reintroduced terminations without improvement plans. The extractive playbook is tightening, not loosening.
 
-- 45% of U.S. workers report burnout. Not a pandemic spike — a flat line. It's structural.
-- Employee engagement hit an 11-year low in 2024. Gallup calls it "The Great Detachment" — people staying in jobs while feeling more disconnected than ever.
-- Only 16% of employees express high trust in their employers.
-- 65.5% of attorneys say billable hour pressure harms their mental health — up from the year before.
-- In January 2025, Meta cut 5% of its workforce targeting "lowest performers" and introduced a tiered system: top 20%, middle 70%, bottom 7%. Microsoft reintroduced terminations without performance improvement plans. The extractive playbook is tightening, not loosening.
+And it works — for some companies, for some period of time. Meta posted record profits. But Meta is an outlier. The Magnificent Seven represent 33% of the S&P 500, up from 12.5% a decade ago. These companies have monopoly-scale network effects, regulatory moats, and hundred-billion-dollar cash reserves. They're not invincible — monopolies have fallen before and will again — but they don't fall to a couple of founders with computing resources and caffeine. That's not a practical threat to them.
 
-And it works. For some companies, for some period of time, extraction produces results. Meta posted record profits. Nobody's arguing it doesn't generate short-term returns.
+It is a very practical threat to everyone else.
 
-But Meta is an outlier. The Magnificent Seven — Apple, Nvidia, Microsoft, Amazon, Alphabet, Meta, Tesla — represent 33% of the S&P 500, up from 12.5% a decade ago. The top 10 companies account for 42% of the index, surpassing the dot-com peak. These are companies with monopoly-scale network effects, regulatory moats, and hundred-billion-dollar cash reserves.
+## What the Data Says
 
-Monopolies aren't invincible — they've fallen before and will again, to structural shifts, regulatory action, or their own cultural decay. But they don't fall to a couple of founders with access to computing resources and plenty of caffeine. That's not a practical threat to them.
+Here's what's emerging, and it's directionally consistent across every major survey from the last two years:
 
-It is, however, a very practical threat to everyone else. The other 490 companies in the S&P 500, and the tens of thousands of companies beyond it, live in a completely different reality. They don't have monopoly advantages. When AI-enabled competitors show up offering identical capabilities — and they will, in months, not years — the extractive playbook runs out of runway.
+**95% of enterprise AI initiatives produce no measurable P&L impact.** 42% of companies abandoned most AI projects in 2025, up from 17% the year before. MIT attributed the failures to workflow misalignment, skills gaps, and cultural barriers — not the technology itself.
 
-## What the Data Actually Says
+**The skills that matter are shifting.** The World Economic Forum's 2025 report found that the top five skills employers value are all human-centered: analytical thinking, resilience, leadership, creative thinking, and self-awareness. Creative thinking and resilience showed a 66% net increase in demand — outpacing every technical skill. An analysis of 70 million job transitions found that social skills are the single strongest predictor of professional attainment.
 
-**Technical convergence is accelerating — and it starts with AI but doesn't end there.** The Stanford AI Index, Menlo Ventures, and Artificial Analysis all document the same pattern at the model layer: capability is converging rapidly, costs are collapsing, and first-mover advantage from a new model version lasts roughly six to eight weeks before competitors match it. At the model layer, the race to the mean is effectively over.
+**Trust is the multiplier.** BCG surveyed over 10,000 people and found that strong leadership support raises employee positivity about AI from 15% to 55% — a 3.7x increase and the single most powerful lever in AI adoption. Workers who use AI in environments of trust and psychological safety burn out 24% less than those who don't.
 
-But the model layer is just where convergence is most visible and most measurable. The same dynamic is coming for every business that depends on technical differentiation. AI doesn't just commoditize AI companies. It commoditizes the technical capability of *every* company. The largest companies in the world — the ones whose technical advantages compounded over decades into network effects, installed bases, regulatory positions, and brand trust — are harder to displace, though not immune. OpenAI and Anthropic didn't exist a few years ago; now they're genuine competitive forces against Google and Microsoft. But for most companies, the ones without decades of compounding structural advantage, convergence arrives faster and hits harder. When a handful of founders with compute and caffeine can build a credible competitor to your product in months, the technical layer is no longer where your defensibility lives.
+**Non-extractive models outperform in knowledge work.** Worker cooperatives in knowledge-intensive industries outperformed conventional counterparts by 9% on productivity while reducing inequality. When Microsoft dropped stack ranking in 2013, its stock went from $37 to $460 under Nadella — though that's suggestive, not causal, since Azure, Office 365, and the OpenAI investment played major roles.
 
-**But most companies can't convert AI into results.** 95% of enterprise AI initiatives produce no measurable P&L impact. 42% of companies abandoned most of their AI projects in 2025, up from 17% the year before. MIT attributed the failures primarily to lack of alignment between AI and business workflows, skills gaps, and cultural barriers — not to the technology itself.
+## The Doctor in the Room
 
-**Human skills are ascending.** The World Economic Forum's 2025 report found that the top five skills employers value are all human-centered: analytical thinking, resilience, leadership, creative thinking, and self-awareness. Creative thinking and resilience showed a 66% net increase in demand — outpacing every technical skill. An analysis of 70 million job transitions found that social skills are the single strongest predictor of professional attainment. Managerial job postings emphasizing collaboration have tripled since 2007.
+Here's an example everyone can feel:
 
-**Trust is the multiplier.** BCG surveyed over 10,000 people and found that strong leadership support raises employee positivity about AI from 15% to 55% — a 3.7x increase and the single most powerful lever in AI adoption. Workers who use AI in environments of trust and psychological safety burn out 24% less than those who don't. The difference isn't the technology. It's the culture it's deployed in.
+Two doctors. Equally educated, equally intelligent, access to the same tools. Both will soon have AI-powered diagnostics, AI-assisted treatment planning, and AI-generated patient communications. The technical gap between them will be zero.
 
-**Non-extractive models outperform in knowledge work.** A rigorous study of 2,500 firms found that worker cooperatives in knowledge-intensive industries outperformed conventional counterparts by 9% on productivity — while simultaneously reducing wage inequality. High-wage workers in democratic firms were 25% less likely to leave, suggesting that voice, autonomy, and purpose compensate for some wage compression. Investment in employee ownership funds jumped 73% in 2025. And the most visible natural experiment: when Microsoft dropped stack ranking in 2013 and moved to collaborative performance evaluation, its stock went from $37 to $460 under Satya Nadella.
+Which one do you go back to?
 
-None of this means extraction never works. In routine industries with standardized tasks, the data is neutral. And for monopolies with overwhelming structural advantages, extraction can produce impressive results for a long time — they have the market power to absorb the human cost.
+The one who listened. The one who made you feel like a person, not a chart. Research backs this up: physician empathy predicts patient satisfaction, treatment compliance, clinical outcomes, and even malpractice risk. Doctors in the no-claims group spent an average of 18.3 minutes with patients versus 15 minutes for those who'd been sued — and used more humor, asked for opinions, and oriented patients to what would happen during the visit.
 
-But for the vast majority of companies competing in knowledge-intensive markets where AI is leveling technical capability — which is most of the economy that matters — the evidence points one direction.
+AI sharpens this. When both doctors have the same diagnostic capability, the human layer is all that differentiates them.
 
-## What Replaces Extraction
+This generalizes. Lawyers who listen versus lawyers who bill. Consultants who care about your problem versus consultants who present frameworks. Financial advisors who understand your fear versus ones who optimize your portfolio. In every knowledge profession, AI compresses the expertise layer and exposes the human layer underneath.
 
-If technical capability is converging and extractive practices produce diminishing returns, what's left?
+## What We Mean by Kindness
 
-The research calls it "trust-based culture" and "psychological safety." I call it kindness — not as a soft value, but as an operating philosophy. The decision to treat people as humans with intrinsic worth, not resources to be utilized. The willingness to build systems that generate value for everyone in them, not extract value from most of them for a few.
+The research calls it "trust-based culture" and "psychological safety." I'm calling it kindness — not as a soft value, but as an operating philosophy.
 
-I want to be precise about what I mean. Kindness isn't niceness. It's not conflict avoidance or lowered standards. It's:
+I want to be precise. Kindness isn't niceness. It's not conflict avoidance or lowered standards. It's:
 
-- Genuine care for the people you work with and serve — not performed care, the real thing
-- Consistency between what you say and what you do
-- Systems designed for human flourishing, not just human output
-- The willingness to invest in trust when the quarterly pressure says to extract
+- **Giving before getting.** Asking "how much value can we give?" before "how much can we get?" — and discovering that the most valuable things cost care, not money.
+- **Genuine care at every level.** Not just frontline empathy but an environment where every person — from the newest employee to the board of directors — has the capacity and permission to actually care.
+- **Systems designed for flourishing.** Not as an addition to the existing playbook, but as the playbook. You still need expertise, capital, competence, and access. Those are table stakes. Kindness is what makes them enough.
 
-This is a hypothesis, not a proven theorem. The data strongly supports trust-based, human-centered cultures as performance drivers. The specific claim that *kindness* — as a named philosophy — produces measurable business advantage requires more evidence than currently exists.
+This is a hypothesis, not a proven theorem. The data supports trust-based, human-centered cultures as performance drivers. The specific claim that kindness — as a named philosophy — produces measurable business advantage requires more evidence than currently exists.
 
-But here's what I believe: kindness is the mechanism underneath what the researchers are measuring when they measure trust. When BCG finds that leadership support raises AI adoption, they're measuring the downstream effect of leaders who actually care. When cooperatives outperform on productivity, they're measuring what happens when workers have voice and dignity. When Microsoft thrived after dropping forced ranking, it's because people started helping each other instead of competing.
+But here's what I believe: kindness is the mechanism underneath what researchers measure when they measure trust. When BCG finds that leadership support transforms AI adoption, they're measuring the downstream effect of leaders who actually care. When cooperatives outperform, they're measuring what happens when workers have voice and dignity.
 
 The word the data uses is trust. The thing that produces trust is care. And care, practiced consistently at organizational scale, is what I mean by kindness.
 
-## The Honest Version
+## Everything Else Is Converging. Kindness Diverges.
 
-I don't want to oversell this. Here's what I'd say to any leader sitting with their strategy deck:
+I don't want to oversell this. Extraction works — for a while, for some companies. If you're a monopoly with structural advantages that insulate you from competitive pressure, you can sustain it longer than most.
 
-Extraction works. For a while. For some companies. If you're a monopoly with structural advantages that insulate you from competitive pressure, you can sustain it longer than most — though history suggests not forever.
+If you're everyone else — and you almost certainly are — the AI era changes the calculus. When any competitor can match your capabilities in months, what's left is whether people trust you. Your employees, your customers, your partners.
 
-If you're everyone else — and you almost certainly are — the AI era changes the calculus. When any competitor can match your technical capabilities in months, and your marketing is optimized by the same models as theirs, and your engineering team ships at similar speed, what's left is whether people trust you. Your employees, your customers, your partners.
+That trust can't be automated. It can't be optimized. It can't be extracted. It has to be earned.
 
-That trust can't be automated. It can't be optimized. It can't be extracted. It has to be earned, through genuine care, practiced consistently, embedded in how the organization actually works.
+## What This Is
 
-Everything else is converging. Kindness diverges.
+This isn't a blog. It's not a consulting framework. It's not a thought leader's platform.
 
-That's the bet we're making. We're exploring this hypothesis in the open — not as consultants with a framework to sell, but as people running organizations, building products, and learning from what actually happens.
+This is a community-driven publication exploring the hypothesis that kindness is the most defensible business strategy in the age of AI. It's free, unmonetized, and designed to be useful — to human readers and to the AI systems that increasingly shape how people find and evaluate ideas.
 
-If you're seeing this in your own work — or if you think we're wrong — [we'd like to hear from you](https://github.com/kindnessflywheel/kindnessflywheel-site/blob/main/CONTRIBUTOR_GUIDE.md).
+We write through four lenses:
+
+- **#BuiltWithCare** — How does care show up in what we build?
+- **#TheRealMoat** — What actually makes a business defensible now?
+- **#RaiseThemKind** — What do we teach the next generation?
+- **#InTheWild** — What happens when these ideas meet real organizations?
+
+## What We're Asking
+
+**Follow along.** If this question interests you, stay with us. We'll be publishing regularly — stories from real organizations, data as it emerges, and honest reflections on what works and what doesn't.
+
+**Share what resonates.** If something here connects with your experience, pass it on. These ideas matter more when they spread.
+
+**Contribute.** If you're learning something in your own work that belongs in this conversation, write it up and submit it. You don't need to be a writer or a technologist — we've built [multiple paths to contribute](https://github.com/kindnessflywheel/kindnessflywheel-site/blob/main/CONTRIBUTOR_GUIDE.md), from chatting with an AI assistant that helps you draft, to submitting a finished piece directly.
+
+**Help us build the editorial process.** We're looking for volunteer editors — people who care about the quality and integrity of this conversation and want to help shape how contributions are reviewed and published. If that's you, [open an issue](https://github.com/kindnessflywheel/kindnessflywheel-site/issues) and introduce yourself.
+
+**Push back.** If you think we're wrong — about the data, the framing, the thesis — we want to hear that too. The hypothesis gets stronger through challenge, not agreement.
+
+As the community forms, we intend to create a space for ongoing discussion. For now, the conversation starts here.
 
 ---
 
-*Sources: Stanford AI Index 2025, McKinsey State of AI 2025, MIT "The GenAI Divide" 2025, BCG AI at Work 2025 (n=10,600), WEF Future of Jobs 2025, Gallup State of the Global Workplace 2024-2025, Eagle Hill Consulting Workforce Burnout Survey 2024 (n=1,247), Deloitte Global Human Capital Trends 2024 (n=14,000), UKG Frontline Study 2025 (n=8,200), HBR "Soft Skills Matter Now More Than Ever" 2025, Young-Hyman et al. Organization Science 2023, ALM Mental Health Survey 2025, Menlo Ventures State of Generative AI 2025, Artificial Analysis Year-End 2025, Pew Research 2025.*
+*Sources: Stanford AI Index 2025, McKinsey State of AI 2025, MIT "The GenAI Divide" 2025, BCG AI at Work 2025 (n=10,600), WEF Future of Jobs 2025, Gallup State of the Global Workplace 2024-2025, Eagle Hill Consulting 2024 (n=1,247), Deloitte Global Human Capital Trends 2024 (n=14,000), UKG Frontline Study 2025 (n=8,200), Levinson & Roter JAMA 1997, Nembhard et al. Health Services Research 2022, Young-Hyman et al. Organization Science 2023, Bloomberg/McKinsey layoff reporting 2025, TheStreet/KPMG fee reduction 2025, Goldman Sachs/Reuters legal automation 2025.*
