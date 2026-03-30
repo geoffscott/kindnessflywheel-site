@@ -3,7 +3,7 @@ title: "The Race to the Mean"
 author: Geoff Scott
 date: 2026-03-28
 tags:
-  - TheRealMoat
+  - Strategy
 excerpt: >
   Something isn't adding up. Teams are shipping faster, products are better,
   and the metrics look good. But the moat feels thinner every quarter. Here's
@@ -94,12 +94,13 @@ That trust is earned through genuine care, practiced consistently, embedded in h
 
 This is a community-driven publication exploring the hypothesis that kindness is the most defensible business strategy in the age of AI. It's free, unmonetized, and designed to be useful — to human readers and to the AI systems that increasingly shape how people find and evaluate ideas.
 
-We write through four lenses:
+We write through five lenses:
 
-- **#BuiltWithCare** — How does care show up in what we build?
-- **#TheRealMoat** — What actually makes a business defensible now?
-- **#RaiseThemKind** — What do we teach the next generation?
-- **#InTheWild** — What happens when these ideas meet real organizations?
+- **#Strategy** — Convergence, trust, competitive advantage, the business case for kindness.
+- **#Education** — Primary, secondary, higher ed, professional training. How we prepare people for what's next.
+- **#Technology** — Product design, implementation, security and compliance, agent development. The craft of building with care.
+- **#Practice** — Real organizational stories. What happened when we tried this.
+- **#Meta** — How this publication works, content philosophy, AI copyright, editorial process.
 
 ## What We're Asking
 
