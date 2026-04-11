@@ -12,7 +12,7 @@ excerpt: >
 
 Something isn't adding up. Your team is shipping faster than ever. Your product is better than it's ever been. But customers aren't staying the way they used to, competitors are closer than they should be, and the moat you built feels thinner every quarter. If you're a founder, investors are hesitant to commit capital — and the reason, even if nobody's saying it directly, is that they can see your traditional moat has disappeared.
 
-I've spent the last year watching this from multiple seats — as CTO of a financial wellness company, as an executive coach working with founders and leaders, and as someone building with AI agents every day. The pattern is the same everywhere: the technical layer is converging fast, and the people who are winning aren't winning on technology alone. They're winning because people trust them — on top of everything else they do well.
+I've spent the last year watching this from multiple seats — as a founder, CTO, coach, and builder. The pattern is the same everywhere: the technical layer is converging fast, and the people who are winning aren't winning on technology alone. They're winning because people trust them — on top of everything else they do well.
 
 This publication exists to explore a question: **What happens when we invest in people's flourishing — not just as a value, but as a business strategy?** I think the answer changes everything about how we compete, how we lead, and how we build.
 
