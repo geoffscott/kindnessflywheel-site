@@ -8,14 +8,15 @@ Stories and insights from people doing the real work of leading with kindness, b
 
 We want **lived experience**. Not theory, not thought leadership, not advice columns. What happened? What did you learn? What surprised you?
 
-## The Four Lenses
+## The Five Lenses
 
 Every post uses one or more of these lenses:
 
-- **#BuiltWithCare** — How does care show up in what we build? Technical stories, product decisions, building with intention.
-- **#TheRealMoat** — What actually makes a business defensible now? Strategy, differentiation, what happens when everything is commoditized.
-- **#RaiseThemKind** — What do we teach the next generation? Empathy, creativity, imagination, communication, compassion.
-- **#InTheWild** — What happens when these ideas meet real organizations? Stories from the field.
+- **#Strategy** — Convergence, trust, competitive advantage, the business case for kindness.
+- **#Education** — Primary, secondary, higher ed, professional training. How we prepare people for what's next.
+- **#Technology** — Product design, implementation, security and compliance, agent development. The craft of building with care.
+- **#Practice** — Real organizational stories. What happened when we tried this.
+- **#Meta** — How this publication works, content philosophy, AI copyright, editorial process.
 
 ## Post Format
 
