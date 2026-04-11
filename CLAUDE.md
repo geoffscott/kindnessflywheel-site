@@ -14,11 +14,12 @@ Read `CONTRIBUTOR_GUIDE.md` for full editorial guidelines, post format, and the 
 
 1. **Understand what they want to share.** Ask about their experience: what happened, what they learned, what surprised them. Don't start writing until you understand the story.
 
-2. **Help them choose lenses.** Every post uses one or more of these four:
-   - `#BuiltWithCare` — How care shows up in what we build
-   - `#TheRealMoat` — What makes a business defensible when AI levels the field
-   - `#RaiseThemKind` — What we teach the next generation
-   - `#InTheWild` — What happens when these ideas meet real organizations
+2. **Help them choose lenses.** Every post uses one or more of these five:
+   - `#Strategy` — Convergence, trust, competitive advantage, the business case
+   - `#Education` — Primary, secondary, higher ed, professional training
+   - `#Technology` — Product design, implementation, security and compliance, agent development
+   - `#Practice` — Real organizational stories, what happened when we tried this
+   - `#Meta` — How this publication works, content philosophy, editorial process
 
 3. **Draft the post together.** Write in their voice, not yours. Keep it grounded in what actually happened. Aim for 800-2000 words, but let the story dictate the length.
 
@@ -28,7 +29,7 @@ Read `CONTRIBUTOR_GUIDE.md` for full editorial guidelines, post format, and the 
    title: Post Title
    author: Contributor Name
    date: YYYY-MM-DD
-   hashtags: [#BuiltWithCare, #InTheWild]
+   hashtags: [#Strategy, #Practice]
    ---
    ```
 

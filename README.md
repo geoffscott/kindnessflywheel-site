@@ -16,12 +16,13 @@ An open-source publication about human-centered leadership in the age of AI. Sto
 
 Not theory. Lived experience. What's working, what's hard, what we're learning.
 
-## The Four Lenses
+## The Five Lenses
 
-- **#BuiltWithCare** — How does care show up in what we build?
-- **#TheRealMoat** — What actually makes a business defensible now?
-- **#RaiseThemKind** — What do we teach the next generation?
-- **#InTheWild** — What happens when these ideas meet real organizations?
+- **#Strategy** — Convergence, trust, competitive advantage, the business case for kindness.
+- **#Education** — Primary, secondary, higher ed, professional training. How we prepare people for what's next.
+- **#Technology** — Product design, implementation, security and compliance, agent development.
+- **#Practice** — Real organizational stories. What happened when we tried this.
+- **#Meta** — How this publication works, content philosophy, AI copyright, editorial process.
 
 ## How to Contribute
 
