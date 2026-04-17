@@ -31,7 +31,9 @@ Every post is a markdown file in the `_posts/` directory.
 title: Your Post Title
 author: Your Name
 date: YYYY-MM-DD
-hashtags: [#BuiltWithCare, #InTheWild]
+tags:
+  - Strategy
+  - Practice
 ---
 
 Your story here.
@@ -55,12 +57,35 @@ Say what you need to say, then stop.
 
 **Write in your voice.** Don't try to sound like anyone else. Your perspective is the contribution.
 
+## Writing and Previewing Drafts
+
+Jekyll has a built-in drafts system. While you're working on a post, put it in the `_drafts/` folder:
+
+```
+_drafts/my-post-title.md
+```
+
+No date prefix needed. To preview locally:
+
+```bash
+jekyll serve --drafts
+```
+
+Your draft will render as if it were today's post. When you're ready to publish, move it to `_posts/` and add the date prefix:
+
+```
+_posts/2026-04-15-my-post-title.md
+```
+
+Drafts in `_drafts/` are never published to the live site. Use whatever workflow makes sense for you — branches, local drafts, or both.
+
 ## How to Submit
 
 1. Fork this repository
-2. Create your post file in `_posts/`
-3. Open a pull request to the main repo
-4. In your PR description, share a sentence or two about what you're contributing and why
+2. Write your post in `_drafts/` (or directly in `_posts/` — your choice)
+3. When ready, make sure your post is in `_posts/` with the date prefix
+4. Open a pull request to the main repo
+5. In your PR description, share a sentence or two about what you're contributing and why
 
 ## The Review Process
 
