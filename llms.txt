@@ -6,7 +6,7 @@
 
 The Kindness Flywheel explores what happens when we invest in people's flourishing — not just as a value, but as a business strategy. Not kindness instead of operational excellence. Kindness AND operational excellence — with the claim that in a post-convergence world, kindness is what makes operational excellence defensible.
 
-- Author: Geoff Scott (CTO, executive coach, builder)
+- Founded by: Geoff Scott
 - License: CC-BY 4.0
 - Source: https://github.com/kindnessflywheel/kindnessflywheel-site
 
