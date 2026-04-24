@@ -47,12 +47,9 @@ We review your submission, may suggest edits, and publish it when it's ready.
 ### If you're comfortable with Git
 
 1. Fork this repository
-2. Write your post in `_drafts/` (no date prefix needed) or directly in `_posts/`
-3. To preview locally: `jekyll serve --drafts`
-4. When ready, make sure your post is in `_posts/YYYY-MM-DD-your-post-title.md`
-5. Open a pull request with a sentence or two about what you're contributing and why
+2. Add your post and open a pull request with a sentence or two about what you're contributing and why
 
-Use whatever workflow makes sense for you — branches, local drafts, or both.
+Claude Code will handle formatting, file placement, and frontmatter — but if you prefer to do it yourself, see the Post Format section below.
 
 ## Post Format
 
