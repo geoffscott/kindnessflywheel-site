@@ -12,17 +12,17 @@ excerpt: >
   how we think about every knowledge-work tool.
 ---
 
-Tonight I gave up on QuickBooks. And in the process, I tested an idea I'd been holding for months.
+Tonight I decided I was done with QuickBooks. In the process, I tested an idea I'd been holding for months.
 
 ## The last straw
 
 I needed to prep my P&L and balance sheet for my accountant ahead of the 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried QuickBooks' new AI assistant, the beta one they've been promoting.
 
-I spent over an hour with it. It struggled to hold context. It lost track of where we were mid-conversation, circled back to questions I'd already answered, suggested things we'd already tried. I don't fault Intuit for shipping their AI system this early. They're a large company with a high release bar, and putting something unfinished in front of customers is sometimes the right call. The issue isn't that they released it early.
+I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. I don't fault Intuit for shipping their AI system this early. They're a large company with a high release bar, and putting something unfinished in front of customers is sometimes the right call. The issue isn't that they released it early.
 
 The issue is that they released it early and expected me to start paying for it after I'd been using it for an hour. That's where the implicit deal of a beta breaks. If you ship early and ask people to figure it out alongside you, they're helping you find what's broken. Charging them to keep going once they've already done that work flips the relationship. They aren't co-piloting an early release anymore; they're customers of an unfinished product.
 
-But the AI assistant was just the last straw. This is a product I pay for that intentionally obstructs my ability to use it for what I'm paying for. Persistent advertisements for services I don't need that I can't dismiss; the same repetitive abuse of my attention, session after session. And this isn't the product's fault. Products don't make choices. People do.
+But the AI assistant was just the last straw. This is a product I pay for that gets in the way of using it for what I'm paying for. Ads for services I don't need that I can't dismiss; the same hijacked attention, session after session. And this isn't the product's fault. Products don't make choices. People do.
 
 Someone designed this. The persistent ads, the credit cap on a beta, the upsell when a session fails: those are individual decisions, but they're consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit set out to make a worse product. I think the system they're working inside rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it.
 
@@ -30,13 +30,13 @@ Someone designed this. The persistent ads, the credit cap on a beta, the upsell 
 
 I've been frustrated with QuickBooks for a long time, and not just with the product. With the posture: the locked-in data, the creeping price increases, the misalignment between what I need (accurate books, minimal friction) and what they optimize for (recurring revenue, upsells, lock-in).
 
-So I'd been researching an alternative. Beancount is open-source, plain-text, double-entry accounting. It's the kind of thing you can version-control. It's human-readable, it belongs to you, and it implements five hundred years of accounting principles in a format that doesn't depend on a vendor.
+So I'd been researching an alternative. Beancount is open-source, plain-text, double-entry accounting that you can version-control. It's human-readable, it belongs to you, and it implements five hundred years of accounting principles in a format that doesn't depend on a vendor.
 
 I'd written a backwards press release announcing a product called CFOKit before writing a line of code, forcing myself to articulate the problem, the solution, and who it was for. Through that process I'd already mapped out the architecture: Beancount for the ledger, Plaid for bank feeds, skills to give my AI agent the ability to do the actual bookkeeping.
 
 I knew I could build it. I had the whole thing sketched out: data migration, bank integrations, reconciliation workflows, financial reporting.
 
-But tonight, I didn't plan to start. I just started, with the first piece.
+But tonight, I didn't plan to start. I just started.
 
 ## Forty-eight minutes
 
@@ -48,7 +48,7 @@ Here's what happened. The timestamps are real.
 
 **21:18–21:36.** Corrections, trial balance reconciliation, final clean reports. Forty-eight minutes total, start to finish.
 
-Let me be precise about what happened: I exported my data from QuickBooks and built the first feature of a new Agent Skill-based small business accounting package using my OpenClaw agent. It's not production-ready for general use, but it met my initial needs completely: data import, trial balance reconciliation, and clean financial statements. More importantly, it solved the problem that started all of this: I could see exactly where the discrepancy was and give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
+Let me be precise about what happened. I exported my QuickBooks data and built one feature of a new accounting tool: an Agent Skill that ingests the export, runs it through Beancount, and produces clean statements. The agent doing the work was OpenClaw, my own. It's not production-ready for general use, but it met my needs tonight: data import, trial balance reconciliation, clean financial statements. More importantly, it solved the problem that started all of this. I could see exactly where the discrepancy was, and I could give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
 
 But that one feature was enough to see something clearly.
 
@@ -60,9 +60,9 @@ If one person and their AI agent can migrate a company's financial data and prod
 
 There are only a handful of major features between what I built tonight and a full QuickBooks replacement: bank feed integration, recurring transaction handling, multi-entity support, tax-ready exports. Each one is a solved problem. The trajectory is clear, even if the timeline is uncertain.
 
-But the insight isn't about the features remaining. It's about what I noticed when the first one fell so easily. The hard part was never the functionality. The hard part is the accumulated context. It's the agent that understands *your* business, that remembers where things are, that knows your patterns: which expenses recur, how you categorize things, what your accountant needs and when. That context builds through interaction, through the agent and the human working together over time.
+But the insight isn't about the features remaining. It's about what I noticed when the first one fell so easily. The hard part was never the functionality. The hard part is the accumulated context. The agent has to understand *your* business, remember where things are, know your patterns: which expenses recur, how you categorize things, what your accountant needs and when. That context builds through interaction, through the agent and the human working together over time.
 
-**The value lives in that relationship. It's the accumulated context, the way the agent and I have learned to work together. Not in the software underneath it.**
+**The value lives in that relationship: in the accumulated context, in the way the agent and I have learned to work together. Not in the software underneath it.**
 
 ## What I don't know yet
 
