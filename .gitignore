@@ -5,3 +5,8 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
+
+# Per-contributor AI agent context (voice profiles, research, references).
+# Tracked only on each contributor's fork-private branch via `git add -f`.
+# See CONTRIBUTING.md "AI-Assisted Authoring Workflow" for the convention.
+.claude/authors/*/
