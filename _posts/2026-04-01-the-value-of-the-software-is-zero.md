@@ -18,7 +18,7 @@ Tonight I decided I was done with QuickBooks. In the process, I tested an idea I
 
 I needed to prep my P&L and balance sheet for my accountant ahead of the 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried QuickBooks' new AI assistant, the beta one they've been promoting.
 
-I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. I don't fault Intuit for shipping their AI system this early. They're a large company, and I'd have expected the bar for release to be higher than what I saw. Maybe they wanted to be more experimental this time around. I don't know. The issue isn't that they released it early.
+I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. I don't fault Intuit for shipping their AI system this early. They're a large company, and I'd have expected the bar for release to be higher than what I saw. Maybe they wanted to be more experimental, which I would applaud. I don't know. The issue isn't that they released it early.
 
 The issue is that they released it early and expected me to start paying for it after I'd been using it for an hour. That's where the implicit deal of a beta breaks. If you ship early and ask people to figure it out alongside you, they're helping you find what's broken. Charging them to keep going once they've already done that work flips the relationship. They aren't co-piloting an early release anymore; they're customers of an unfinished product.
 
