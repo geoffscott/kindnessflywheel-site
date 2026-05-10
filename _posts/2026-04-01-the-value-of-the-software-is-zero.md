@@ -18,13 +18,13 @@ Tonight I rage-quit QuickBooks. And in doing so, I accidentally proved something
 
 I needed to prep my P&L and balance sheet for my accountant. 2025 tax filings. Routine stuff. But I had a discrepancy I couldn't resolve, so I tried QuickBooks' new AI assistant — the beta one they've been promoting.
 
-An hour. I spent over an hour with this thing. It couldn't hold context. It would lose track of where we were mid-conversation, circle back to questions I'd already answered, suggest things we'd already tried. Classic context window mismanagement — the kind of thing you'd catch in the first week of testing if you actually used your own product.
+I spent over an hour with it. It struggled to hold context — losing track of where we were mid-conversation, circling back to questions I'd already answered, suggesting things we'd already tried. Honestly, I applaud Intuit for shipping their AI system this early. They're a big company, and the bar for release should be fairly high, but putting something out before it's polished happens, and sometimes it's the right call. The issue isn't that they released it early.
 
-Then I ran out of credits. And it tried to upsell me.
+The issue is that they released it early and expected me to start paying for it after I'd been using it for an hour. That's where the implicit deal of a beta breaks. If you ship early and ask people to figure it out alongside you, they're helping you find what's broken. Charging them to keep going once they've already done that work flips the relationship — they aren't co-piloting an early release anymore, they're customers of an unfinished product.
 
 But the AI assistant was just the last straw. This is a product I pay for that intentionally obstructs my ability to use it for what I'm paying for. Persistent advertisements for services I don't need that I can't dismiss — they just keep coming back. The same repetitive abuse of my attention, session after session. And this isn't the product's fault. Products don't make choices. People do.
 
-Someone designed this. Someone decided that abusing their users' attention and energy to extract more money for things they don't need was a good idea. And that person was driven by leadership that encourages a myopic focus on monetary extraction as opposed to value creation. That's not a product decision. It's a culture.
+Someone designed this. The persistent ads, the credit cap on a beta, the upsell when a session fails — those are individual decisions, but they're consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit set out to make a worse product. I think the system they're working inside rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with — not the product, the culture that produced it.
 
 ## The thing I'd been building toward
 
@@ -48,19 +48,13 @@ Here's what happened. The timestamps are real.
 
 **21:18–21:36** — Corrections, trial balance reconciliation, final clean reports. Forty-eight minutes total, start to finish.
 
-One person. One AI agent. Under an hour. From rage-quit to clean financials.
-
 Let me be precise about what happened: I exported my data from QuickBooks and built the first feature of a new Agent Skill-based small business accounting package using my OpenClaw agent. It's not production-ready for general use, but it met my initial needs completely — data import, trial balance reconciliation, and clean financial statements. More importantly, it solved the problem that started all of this: I could see exactly where the discrepancy was and give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
 
 But that one feature was enough to see something clearly.
 
 ## The insight
 
-The value of the software is zero.
-
-Not approximately zero. Not "low." *Zero.*
-
-Bookkeeping is a 500-year-old solved problem. Double-entry accounting hasn't changed since Luca Pacioli published his treatise in 1494. The math is the math. Any competent system can do it. And now, any AI agent with the right instructions can replicate the functionality in minutes.
+The value of the software is zero — and I mean that literally, not approximately. Bookkeeping is a 500-year-old solved problem. Double-entry accounting hasn't changed since Luca Pacioli published his treatise in 1494. The math is the math. Any competent system can do it. And now, any AI agent with the right instructions can replicate the functionality in minutes.
 
 If one person and their AI agent can migrate a company's financial data and produce clean statements in forty-eight minutes — even if that's just the first step — it tells you something important about where the value lives. It's not in the ledger math. It never was.
 
@@ -68,7 +62,7 @@ There are only a handful of major features between what I built tonight and a fu
 
 But the insight isn't about the features remaining. It's about what I noticed when the first one fell so easily. The hard part was never the functionality. The hard part is the accumulated context — the agent that understands *your* business. That remembers where things are. That knows your patterns — which expenses recur, how you categorize things, what your accountant needs and when. That context builds through interaction. Through the agent and the human working together over time.
 
-*That's* where the value lives. Not in the software. In the relationship.
+The value lives in that relationship — the accumulated context, the way the agent and I have learned to work together. Not in the software underneath it.
 
 ## What I don't know yet
 
@@ -98,9 +92,9 @@ When capability converges to zero cost, what's left?
 
 ## What it means
 
-QuickBooks had a choice tonight. When their AI assistant failed me — when their beta product burned an hour of my time accomplishing nothing — they could have said: *We're sorry. Here's a credit. Let us make this right.* That would have cost them almost nothing and might have kept me for another year.
+QuickBooks had a choice tonight. After an hour with a beta product that wasn't ready, they could have said: *We're sorry that didn't work. Here's a credit. Let us make this right.* That would have cost them almost nothing and might have kept me for another year.
 
-Instead, they upsold me. Because someone in a product meeting decided that when a customer hits a wall, the right response is an upgrade screen. That's not a bug. That's a philosophy. It's extraction — optimizing every touchpoint for revenue, not for the person on the other end.
+Instead, they sent me an upgrade prompt. That's a small thing in isolation, but it tells you what the system is optimized for. When a paying customer hits a wall, the default response isn't to make it right — it's to make a sale. That isn't a bug; it's how the organization is structured to behave.
 
 The alternative is a system that's actually on your side. An agent that knows your business, that gets better the longer you work together, that doesn't have a financial incentive to keep you confused or locked in. Your books in plain text. Your data in a format you own. Your agent running on infrastructure you control.
 
@@ -108,6 +102,4 @@ This is the kindness flywheel in practice. Not kindness as softness — kindness
 
 In a world where functionality is free, alignment is the only moat left. The question isn't whether software capability gets commoditized — that's already happening. The question is what we build in its place.
 
-I think we build relationships. Real ones. Between people and the systems that serve them. Accumulated context. Genuine alignment. Tools that care about getting it right.
-
-The value of the software is zero. The value of the relationship is everything.
+I think what we build instead is relationships — between people and the systems that serve them, with accumulated context and genuine alignment, where the tool is set up to actually get it right rather than to optimize for a quarterly metric.
