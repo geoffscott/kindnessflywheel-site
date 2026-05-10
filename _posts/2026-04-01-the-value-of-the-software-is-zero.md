@@ -28,7 +28,7 @@ Someone designed this. The persistent ads, the usage cap on a beta, the upsell w
 
 ## What I'd been designing
 
-I've been frustrated with QuickBooks for a long time, and not just with the product. With the posture: the locked-in data, the creeping price increases, the misalignment between what I need (accurate books, minimal friction) and what they optimize for (recurring revenue, upsells, lock-in).
+I've been frustrated with QuickBooks for a long time, and not just with the product. With the posture: the persistent upsells, the creeping price increases, the misalignment between what I need (accurate books, minimal friction) and what the company optimizes for (revenue extraction).
 
 So I'd been researching an alternative. Beancount is open-source, plain-text, double-entry accounting that you can version-control. It's human-readable, it belongs to you, and it implements five hundred years of accounting principles in a format that doesn't depend on a vendor.
 
@@ -56,7 +56,7 @@ But that one feature was enough to see something clearly.
 
 **The value of the software is zero. I mean that literally, not approximately.** Bookkeeping is a 500-year-old solved problem. Double-entry accounting hasn't changed since Luca Pacioli published his treatise in 1494. The math is the math. Any competent system can do it. And now, any AI agent with the right instructions can replicate the functionality in minutes.
 
-If one person and their AI agent can migrate a company's financial data and produce clean statements in forty-eight minutes, even if that's just the first step, the speed itself reveals where the value lives. It's not in the ledger math. It never was.
+If one person and their AI agent can migrate a company's financial data and produce clean statements in forty-eight minutes, even if that's just the first step, the speed itself reveals where the value lives. It's not in the ledger math. It never was. The ledger underneath is a commodity. It has been for centuries. Which one I use barely matters.
 
 There are only a handful of major features between what I built tonight and something I could run my consulting business on: bank feed integration, recurring transaction handling, simple invoicing, tax-ready exports. Each is a solved problem. The same feature set would cover most small businesses, not just mine. I'm not claiming to be on the verge of replacing QuickBooks for a hundred-person company. I am claiming the trajectory is clear, even if the timeline is uncertain.
 
