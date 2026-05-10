@@ -24,17 +24,17 @@ The issue is that Intuit released it early and expected me to start paying for i
 
 But the AI assistant was just the last straw. The product itself works against me. Ads for services I don't need keep returning no matter how many times I dismiss them, despite my paying for the product. Session after session, my attention gets hijacked the same way. None of this is accidental.
 
-Someone designed this. The persistent ads, the credit cap on a beta, the upsell when a session fails: those are individual decisions, but they're consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit set out to make a worse product. I think the system they're working inside rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it.
+Someone designed this. The persistent ads, the usage cap on a beta, the upsell when a session fails: those are individual decisions, but they're consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit set out to make a worse product. I think the system they're working inside rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it.
 
-## The thing I'd been building toward
+## What I'd been designing
 
 I've been frustrated with QuickBooks for a long time, and not just with the product. With the posture: the locked-in data, the creeping price increases, the misalignment between what I need (accurate books, minimal friction) and what they optimize for (recurring revenue, upsells, lock-in).
 
 So I'd been researching an alternative. Beancount is open-source, plain-text, double-entry accounting that you can version-control. It's human-readable, it belongs to you, and it implements five hundred years of accounting principles in a format that doesn't depend on a vendor.
 
-I'd written a backwards press release announcing a product called CFOKit before writing a line of code, forcing myself to articulate the problem, the solution, and who it was for. Through that process I'd already mapped out the architecture: Beancount for the ledger, Plaid for bank feeds, skills to give my AI agent the ability to do the actual bookkeeping.
+I'd designed the product before writing a line of code, working through the problem, the solution, and who it was for. The shape that emerged was different from QuickBooks: not an accounting package, but an autonomous bookkeeper agent that uses one. Beancount served as the ledger, Plaid handled bank feeds, and Agent Skills gave the AI the abilities a bookkeeper actually exercises: reconciling transactions, categorizing them, and producing reports.
 
-I knew I could build it. I had the whole thing sketched out: data migration, bank integrations, reconciliation workflows, financial reporting.
+I knew I could build it.
 
 But tonight, I didn't plan to start. I just started.
 
@@ -48,7 +48,7 @@ Here's what happened. The timestamps are real.
 
 **21:18–21:36.** Corrections, trial balance reconciliation, final clean reports. Forty-eight minutes total, start to finish.
 
-Let me be precise about what happened. I exported my QuickBooks data and built one feature of a new accounting tool: an Agent Skill that ingests the export, runs it through Beancount, and produces clean statements. The agent doing the work was OpenClaw, my own. It's not production-ready for general use, but it met my needs tonight: data import, trial balance reconciliation, clean financial statements. More importantly, it solved the problem that started all of this. I could see exactly where the discrepancy was, and I could give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
+Let me be precise about what happened. I exported my QuickBooks data and gave my OpenClaw agent its first bookkeeping capability: an Agent Skill that ingests the export, runs it through Beancount, and produces clean statements. It's not production-ready for general use, but it met my needs tonight: data import, trial balance reconciliation, clean financial statements. More importantly, it solved the problem that started all of this. I could see exactly where the discrepancy was, and I could give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
 
 But that one feature was enough to see something clearly.
 
