@@ -10,10 +10,19 @@ contributor maintains their own `.claude/authors/<their-slug>/` directory on
 their fork's `drafts` branch (force-added with `git add -f`). These files
 never appear on PR branches submitted upstream.
 
-The CLAUDE.md hook in the project root reads every markdown file in the
-contributor's author directory before drafting, so dropping in additional
-reference documents (rhetorical forms, source materials, structural
-frameworks, etc.) takes effect automatically on the next session.
+The CLAUDE.md hook in the project root reads `voice.md` and `README.md` from
+the contributor's author directory before drafting. The rest of the directory
+is treated as on-demand reference — the agent pulls research, personas,
+people, and reference files when the post calls for that material rather than
+loading the whole directory wholesale. This keeps token usage manageable when
+the directory grows to hundreds of KB of background research.
+
+Suggested layout for a contributor's directory: a `README.md` at the root
+that indexes what's there and explains how to use it, a `voice.md` that
+holds authoritative voice rules, and topic subdirectories (e.g., `research/`,
+`personas/`, `people/`, `context/`, `ideation/`) for everything else.
+Drop new reference documents in the appropriate subdirectory; describe them
+in your `README.md` so the agent knows when to consult them.
 
 ## Setup
 
