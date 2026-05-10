@@ -50,6 +50,52 @@ We review your submission, may suggest edits, and publish it when it's ready.
 2. Write your post — see Post Format below for the expected structure
 3. Open a pull request with a sentence or two about what you're contributing and why
 
+### AI-Assisted Authoring Workflow
+
+If you're using an AI agent — Claude Code, Claude Code Cloud, OpenClaw, or anything else — to help draft over multiple sessions, we recommend a convention that keeps your private context (voice profile, research, in-progress drafts) in your fork without leaking it into PRs to upstream.
+
+**One-time setup.** From a clone of your fork:
+
+    ./scripts/setup-author.sh
+
+The script will:
+
+- Add `upstream` remote pointing at this repo
+- Create a `drafts` branch in your fork off the latest `main`
+- Scaffold `_authors/<your-slug>.md` (your public author bio)
+- Scaffold `.claude/authors/<your-slug>/voice.md` (your private voice profile)
+- Set `drafts` as your fork's default branch (via `gh repo edit`)
+- Push everything to your fork
+
+After it runs, edit `voice.md` with your voice rules and reference posts. Drop additional reference documents (rhetorical forms, source materials, structural frameworks) into `.claude/authors/<your-slug>/` as you accumulate them — the CLAUDE.md hook reads every file in that directory automatically.
+
+**Day-to-day authoring.** Stay on `drafts`. Your agent reads your voice profile and references on every session. Iterate freely; commits stay on `drafts` and only ever live in your fork.
+
+**Submitting a post.** When a draft is ready, branch off clean upstream `main` and bring just the post (and any author-bio updates) over:
+
+    git fetch upstream
+    git checkout -b post/<slug> upstream/main
+    git checkout drafts -- _posts/<your-post>.md _authors/<your-slug>.md
+    git commit -m "post: <title>"
+    git push -u origin post/<slug>
+
+Then open a PR from `<your-fork>/post/<slug>` → `<upstream>/main`. The PR contains only the post and author bio — your voice profile and research stay private to your fork.
+
+**Handling editor feedback.** Make changes on `drafts` (with full agent context), then update the PR branch with the revised post:
+
+    git checkout post/<slug>
+    git checkout drafts -- _posts/<your-post>.md
+    git commit --amend --no-edit
+    git push -f origin post/<slug>
+
+**Staying current with upstream.** Periodically:
+
+    git fetch upstream
+    git checkout main && git merge --ff-only upstream/main && git push origin main
+    git checkout drafts && git rebase main
+
+**Why this works.** `.claude/authors/*/` is gitignored upstream, so per-contributor content is private by default. Files only become tracked on your fork's `drafts` branch (force-added by the setup script). PR branches branch off clean `main`, so they can't include private context — even by accident.
+
 
 ## Post Format
 
