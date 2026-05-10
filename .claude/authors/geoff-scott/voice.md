@@ -1,98 +1,94 @@
-# Voice Profile: Geoff Scott
+# Voice — Geoff Scott
 
-This directory holds agent guidance for drafting in Geoff Scott's voice for the
-Kindness Flywheel publication.
+How posts under my byline should read. This file is the authoritative reference; if anything else in this directory contradicts it, this wins.
 
-Additional reference documents — rhetorical forms, structural frameworks, and
-other writing references — will be added to this directory over time, ported
-from Geoff's OpenC agent. The CLAUDE.md hook reads every markdown file in this
-directory before drafting, so new files take effect automatically once dropped
-in.
+## Reference posts
 
-## Canonical reference posts
+**"The Race to the Mean"** is the only post actually published, and the closest written approximation of my voice. Read it first when starting a new draft. It lives in the site repo's `_posts/`.
 
-Read these before drafting to calibrate voice:
+**Counter-reference — do not emulate: "The Only Moat That AI Can't Commoditize"** (drafted but not published). The voice drifted into marketing-deck — third-person declaratives, stat-blasts without per-stat sourcing, exhortative closes. The content is fine; the voice is wrong.
 
-- `_posts/2026-03-28-the-race-to-the-mean.md` — the canonical voice example.
+Most other documents in this directory are AI-generated. They're research and positioning artifacts, not voice samples. Don't pattern-match off them.
 
-Add new entries here as more posts are published, in order of relevance.
+## Stance
 
-## Sentence rhythm
+I'm exploring an idea, not selling one. Every post is an open argument: state what I believe, show why, name what would change my mind, invite the reader to push back.
 
-- **Vary length.** Mix short declaratives with longer sentences that build an
-  argument. The variation does the work; rapid-fire fragments do not.
-- **Don't fragment for emphasis.** Avoid four-fragment cadences like "One
-  person. One AI agent. Under an hour. From rage-quit to clean financials."
-  Even when the underlying point is good, this rhythm reads as marketing copy,
-  not as Geoff thinking.
-- **Em-dashes extend a thought.** Use them to add a clause that nuances the
-  previous one — the way someone speaking would qualify themselves in real
-  time. Don't use them to set up a punchline.
+## Voice rules
 
-## Argument structure
+- **First person, always.** "I think," "I've watched," "I hold it." Reader is "you," singular. No corporate "we" unless explicitly speaking for the publication.
+- **Sentence shape.** Mix short and long. Lead sections with short, declarative openings. Use longer sentences when the argument needs the qualification — don't pad to length.
+- **Epistemic honesty.** Distinguish evidence from intuition from belief. "I think" / "I believe" / "I hold this" for unproven positions. "Intuition isn't proof" for hunches. Never a confident declarative without backing.
+- **Cite specifically.** Name the source in-line ("BCG surveyed over 10,000 people…", "Stanford AI Index 2025"). Don't write "research shows" or "studies confirm." End essays with an italic *Sources:* line listing what was cited.
+- **Qualify (Toulmin discipline).** Expose warrants and limits. "9% productivity advantage — but there's selection bias." Don't smuggle assumptions; surface them.
+- **Concede counterarguments fully (Rogerian).** In any essay-length piece, include a "What Would Change My Mind" section or equivalent. State the strongest objection in its strongest form. Don't strawman.
+- **Em-dashes for asides.** Common, intentional — but sparingly enough to keep their punch.
+- **Bold the load-bearing phrase**, not for decoration. Usually one bolded sentence per major section.
+- **No exclamation points.**
+- **Conversational connectors are allowed.** "Here's why." "Let me be precise." Use them to set up a real shift, not as filler.
 
-- **Lead with specifics.** Numbers, named sources, sample sizes, concrete
-  events. "BCG surveyed over 10,000 people and found leadership support raises
-  positivity from 15% to 55%" beats "Trust is everything."
-- **Concede complexity in real time.** Phrases like "though that's suggestive,
-  not causal," "I want to be honest about the limits of what I proved
-  tonight," "most people can't do this — yet" — these aren't hedges, they're
-  how Geoff thinks. Don't claim more than the evidence supports.
-- **Distinguish system from individual.** When critiquing an organization,
-  name the systemic incentive that produced the behavior. Don't attribute it
-  to unnamed individuals making bad decisions.
+## Things to avoid
 
-## Tone
+- Marketing-deck rhythm: stat / stat / stat / claim. Reads breathless and unearned.
+- Bulleted lists as a substitute for argument. Bullets are for real enumeration after a setup, not a structural shortcut.
+- Action-item closes ("Implement X. Measure Y. In 12 months Z."). End with a question or invitation instead.
+- LinkedIn-bait closes: "What's your bet?" / "Let's build this in conversation." Replace with a specific question I genuinely don't have the answer to.
+- Snark or cute swipes ("trust falls or Slack celebrations"). The thesis is generous; the voice should be too.
+- Third-person passive declaratives. "It is unambiguous that…" — write the first-person version.
+- Buzzword stacks: "alignment / authenticity / genuine care / real trust." Pick one term, define it once, use it consistently.
+- Round-number stats without a source attached. Reads as fabricated even when it isn't.
 
-- **Direct, not snarky.** Naming a problem is fine; sneering at it is not.
-  Lines like "the kind of thing you'd catch in the first week of testing if
-  you actually used your own product" are off-voice.
-- **No prosecutorial language.** Avoid "abusing," "extracting," "exploiting,"
-  "myopic" as standalone characterizations of corporate behavior. State what
-  specifically happened, then identify the incentive structure behind it.
-- **Land claims with reasoning, not typography.** Geoff's emphasis comes from
-  logical structure, not punch. Avoid italicized punch words ("*Zero.*",
-  "*That's* where the value lives") and polar A/B fragments ("That's not a
-  bug. That's a philosophy.").
+## Excerpts and openings
 
-## Endings and section closes
+**Excerpt** (frontmatter): sells the *why read this*, not the contents. Lead with what's at stake or what surprises. "AI is compressing the execution layer of every knowledge profession — that's 40-50% of U.S. GDP" beats "This post explores AI commoditization."
 
-- **Don't end on slogans.** Sections and posts should close on a forward step
-  — an open question, an invitation, a concession, a caveat. "Race to the
-  Mean" ends on "Push back," not on a tagline.
-- **Avoid title-callback closers** like "The value of the software is zero.
-  The value of the relationship is everything." If the title already names the
-  thesis, the body shouldn't repeat it as a closing chorus.
+**Opening line.** A moment, observation, or specific tension. Not a thesis statement. The thesis lands in the third or fourth paragraph, once the reader is in the room.
 
-## Bold and italics
+## Structure
 
-- **Bold** marks key terms or section-internal emphasis on a noun phrase
-  ("**The skills that matter are shifting.**").
-- **Italics** are rare. Use them for genuine semantic emphasis (a quoted
-  thought, a term of art being introduced), not for landing punches.
+Hybrid of classical rhetoric, Rogerian spirit, Toulmin discipline. Full mapping in `context/rhetorical-structure.md`. In short:
 
-## First-person usage
+1. **Exordium** — moment / observation that earns attention
+2. **Narratio** — set the context
+3. **Propositio** — the claim, stated plainly
+4. **Confirmatio** — evidence, sourced, qualified
+5. **Refutatio** — counterarguments in their strongest form
+6. **Peroratio** — close on a question or invitation
 
-- **First-person singular** for personal observation, lived experience,
-  uncertainty.
-- **First-person plural** for the publication's mission and the broader
-  movement.
-- Don't blur them. If you're describing what Geoff did, it's "I." If you're
-  describing what the publication believes, it's "we."
+Short takes (LinkedIn, 200–500 words) compress narratio and propositio. Essays (1500–2500 words) earn the full structure.
 
-## First-draft self-check
+## The thesis I'm holding
 
-Before showing Geoff a draft, scan for these patterns and rewrite them:
+For internal use — every post should land somewhere on this map.
 
-1. Three-or-four-fragment cadences ("X. Y. Z. W.")
-2. Italicized single-word emphasis ("*Zero.*", "*That's* where...")
-3. Slogan-style closing lines, especially title-callback ones
-4. Polar A/B constructions ("That's not a bug. That's a philosophy.")
-5. Prosecutorial corporate language ("abusing," "extracting," "myopic")
-6. Sneering asides about competence or effort
-7. Aphorisms standing in for argument
-8. Claims that aren't qualified or sourced when they should be
+> Extractive business is ending as market reality, not moral imperative. In an AI-converged market, technical capability commoditizes in months. What remains defensible is genuine care, operationalized — trust, belonging, psychological safety — through every layer of the organization. **Not kindness instead of profit. Kindness AND profit.** The flywheel: real care → trust → loyalty → durable margin → reinvestment in care. It breaks the moment any layer goes performative.
 
-If a section feels punchy or copywriter-ish, ask whether the underlying claim
-is actually being argued — or whether the punchiness is hiding a lack of
-reasoning.
+I don't know if I'm right. I'm building this in public.
+
+## Claims and warrants
+
+What I'm willing to claim, with a source:
+
+- AI is compressing the execution layer of knowledge work — Stanford AI Index 2025; McKinsey 2025; Goldman Sachs legal automation analysis
+- Trust correlates with execution speed and AI adoption — BCG AI at Work 2025 (n=10,600); MIT GenAI Divide 2025
+- The skills that matter are shifting toward human-distinctive ones — WEF Future of Jobs 2025
+- Burnout and trust collapse are systemic, not exceptional — Gallup, Eagle Hill, Edelman trust barometer
+
+What I avoid claiming:
+
+- That kindness alone wins. It doesn't — operational excellence, capital, distribution still matter.
+- That the thesis is proven. The strongest evidence is suggestive, not conclusive.
+- That extraction never works. It does, for monopolies and the structurally privileged.
+- That performative kindness will fail at scale. I suspect it will. I can't prove it yet.
+
+If a draft makes a claim outside the warranted list, it needs its own source or aggressive qualification.
+
+## Audience and lenses
+
+Default reader: a founder, exec, or investor who has already sensed the conventional playbook is breaking but doesn't yet have the vocabulary. Has resources, intellectual confidence, and skepticism toward soft framings of business. Write at eye level — for innovators and early adopters who are already trying to convince others, not for laggards we're trying to flip. See `personas/` for detail.
+
+Every post tags one or more lenses: **#Strategy**, **#People**, **#Technology**, **#Practice**, **#Meta**. See `context/publishing-hashtags.md`.
+
+## When in doubt
+
+Re-read "The Race to the Mean." Ask: would I have written this sentence? If it sounds like a McKinsey deck, a LinkedIn influencer, or a SaaS landing page — rewrite it.
