@@ -36,7 +36,7 @@ I'd designed the product before writing a line of code, working through the prob
 
 I knew I could build it.
 
-But tonight, I didn't plan to start. I just started.
+But tonight, I started, without planning to.
 
 ## Forty-eight minutes
 
@@ -56,9 +56,9 @@ But that one feature was enough to see something clearly.
 
 **The value of the software is zero. I mean that literally, not approximately.** Bookkeeping is a 500-year-old solved problem. Double-entry accounting hasn't changed since Luca Pacioli published his treatise in 1494. The math is the math. Any competent system can do it. And now, any AI agent with the right instructions can replicate the functionality in minutes.
 
-If one person and their AI agent can migrate a company's financial data and produce clean statements in forty-eight minutes, even if that's just the first step, it tells you something important about where the value lives. It's not in the ledger math. It never was.
+If one person and their AI agent can migrate a company's financial data and produce clean statements in forty-eight minutes, even if that's just the first step, the speed itself reveals where the value lives. It's not in the ledger math. It never was.
 
-There are only a handful of major features between what I built tonight and a full QuickBooks replacement: bank feed integration, recurring transaction handling, multi-entity support, tax-ready exports. Each one is a solved problem. The trajectory is clear, even if the timeline is uncertain.
+There are only a handful of major features between what I built tonight and something I could run my consulting business on: bank feed integration, recurring transaction handling, simple invoicing, tax-ready exports. Each is a solved problem. The same feature set would cover most small businesses, not just mine. I'm not claiming to be on the verge of replacing QuickBooks for a hundred-person company. I am claiming the trajectory is clear, even if the timeline is uncertain.
 
 But the insight isn't about the features remaining. It's about what I noticed when the first one fell so easily. The hard part was never the functionality. The hard part is the accumulated context. The agent has to understand *your* business, remember where things are, know your patterns: which expenses recur, how you categorize things, what your accountant needs and when. That context builds through interaction, through the agent and the human working together over time.
 
@@ -76,7 +76,7 @@ I want to be honest about the limits of what I proved tonight, because I think t
 
 **The skills I built tonight aren't ready for anyone else.** They handle my edge cases, my chart of accounts, my specific QuickBooks export format. I plan to open source them: MIT-licensed, free forever for core functionality. But "planning to open source" and "production-ready for other people" are very different things. Significant development separates the two.
 
-**The trajectory is clear but the timeline is uncertain.** I can see the path to a full replacement. I can't tell you when I'll finish walking it.
+**The trajectory is clear but the timeline is uncertain.** I can see the path to running my consulting business on this. I can't tell you when I'll finish walking it.
 
 ## Why the honest version is the stronger one
 
