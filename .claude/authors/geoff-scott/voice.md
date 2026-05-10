@@ -22,10 +22,11 @@ I'm exploring an idea, not selling one. Every post is an open argument: state wh
 - **Cite specifically.** Name the source in-line ("BCG surveyed over 10,000 people…", "Stanford AI Index 2025"). Don't write "research shows" or "studies confirm." End essays with an italic *Sources:* line listing what was cited.
 - **Qualify (Toulmin discipline).** Expose warrants and limits. "9% productivity advantage — but there's selection bias." Don't smuggle assumptions; surface them.
 - **Concede counterarguments fully (Rogerian).** In any essay-length piece, include a "What Would Change My Mind" section or equivalent. State the strongest objection in its strongest form. Don't strawman.
-- **Em-dashes for asides.** Common, intentional — but sparingly enough to keep their punch.
+- **Em-dashes are rare.** One per essay is a lot; zero is fine. Reach for a comma, colon, semicolon, or full stop instead. Em-dashes turn into a tic if they become the default tool for asides, and the result reads like AI-generated prose. Count them on a final pass.
+- **Complete sentences by default.** Short declaratives are good ("The math is the math."). Sentence fragments are not, except once or twice in an essay at a real rhetorical peak where the fragmentation itself is doing work. Default-rhythm fragments ("Routine stuff." "The locked-in data. The creeping price increases.") read as social-media cadence, not voice.
+- **Register check.** No internet-native colloquialisms ("rage-quit," "I just... started"), no LinkedIn discourse markers ("Honestly,", "Look,"), no ellipses for dramatic pause. Conversational connectors ("Here's why." "Let me be precise.") are allowed and welcome; use them to set up a real shift, not as filler.
 - **Bold the load-bearing phrase**, not for decoration. Usually one bolded sentence per major section.
 - **No exclamation points.**
-- **Conversational connectors are allowed.** "Here's why." "Let me be precise." Use them to set up a real shift, not as filler.
 
 ## Things to avoid
 
