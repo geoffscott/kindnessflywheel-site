@@ -88,6 +88,8 @@ If even an incomplete migration of one feature (data export, import, and reporti
 
 This is the same pattern we're seeing across every knowledge-work tool. In [the inaugural post on this site](/2026/03/28/the-race-to-the-mean), I wrote about convergence: how AI is compressing the execution layer of every knowledge profession. The gap between the best AI models and the rest shrank from 17.5 percentage points to 0.3 in a single year. Feature-level replication now takes hours to days. This isn't just happening to accounting software. It's happening everywhere.
 
+Even the market sees it. Morningstar downgraded Intuit's economic moat from Wide to Narrow in 2025, citing AI disruption risk. The stock dropped roughly 36 percent over the same period on AI-related fears. The argument I'm making in this post is one that institutional analysts have already started pricing in.
+
 When capability converges to zero cost, what's left?
 
 ## What it means
@@ -95,6 +97,8 @@ When capability converges to zero cost, what's left?
 QuickBooks had a choice tonight. After an hour with a beta product that wasn't ready, they could have said: *We're sorry that didn't work. Here's a credit. Let us make this right.* That would have cost them almost nothing and might have kept me for another year.
 
 Instead, they sent me an upgrade prompt. That's a small thing in isolation, but it tells you what the system is optimized for. When a paying customer hits a wall, the default response isn't to make it right. It's to make a sale. That isn't a bug; it's how the organization is structured to behave.
+
+And AI doesn't change this. Intuit is shipping AI agents of its own. Four went live inside QuickBooks Online on July 1, 2025, with more on the way. The capability is real. But those agents are running inside the same organization that put a usage cap on a beta and sent me an upgrade prompt when its product failed me. Whatever the agents can do, they will do in service of what the organization is measured on.
 
 The alternative is a system that's actually on your side: an agent that knows your business, that gets better the longer you work together, that doesn't have a financial incentive to keep you confused or locked in. Books in plain text, data in a format you own, an agent running on infrastructure you control.
 
@@ -106,4 +110,4 @@ But I don't know yet what that looks like at the scale of an organization. When 
 
 ---
 
-*Sources: Luca Pacioli, Summa de arithmetica (1494). Convergence figures via [The Race to the Mean](/2026/03/28/the-race-to-the-mean), citing the Stanford AI Index 2025. Timestamps and migration details from my own session, the night of March 31, 2026.*
+*Sources: Luca Pacioli, Summa de arithmetica (1494). Convergence figures via [The Race to the Mean](/2026/03/28/the-race-to-the-mean), citing the Stanford AI Index 2025. Morningstar 2025 (Intuit economic moat downgrade). CPA Practice Advisor and Intuit Investor Relations, July 2025 (Intuit AI agents launch). Yahoo Finance, 2025 (Intuit stock performance). Timestamps and migration details from my own session, the night of March 31, 2026.*
