@@ -22,7 +22,7 @@ I spent over an hour with it. It couldn't hold context. By the third time it ask
 
 The issue is that Intuit released it early and expected me to start paying for it after I'd been using it for an hour. That's where the implicit deal of a beta breaks. If you ship early and ask people to figure it out alongside you, those people are helping you refine the product for commercial readiness. Charging them to keep going once they've done that work flips the relationship. They aren't co-piloting an early release anymore; they're customers of an unfinished product.
 
-But the AI assistant was just the last straw. This is a product I pay for that gets in the way of using it for what I'm paying for. Ads for services I don't need that I can't dismiss; the same hijacked attention, session after session. And this isn't the product's fault. Products don't make choices. People do.
+But the AI assistant was just the last straw. The product itself works against me. Ads for services I don't need keep returning no matter how many times I dismiss them, despite my paying for the product. Session after session, my attention gets hijacked the same way. None of this is accidental.
 
 Someone designed this. The persistent ads, the credit cap on a beta, the upsell when a session fails: those are individual decisions, but they're consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit set out to make a worse product. I think the system they're working inside rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it.
 
