@@ -94,7 +94,7 @@ When capability converges to zero cost, what's left?
 
 ## What it means
 
-QuickBooks had a choice tonight. After an hour with a beta product that wasn't ready, they could have said: *We're sorry that didn't work. Here's a credit. Let us make this right.* That would have cost them almost nothing and might have kept me for another year.
+Intuit had a choice tonight. After an hour with a beta product that wasn't ready, they could have said: *We're sorry that didn't work. Here's a credit. Let us make this right.* That would have cost them almost nothing and might have kept me for another year.
 
 Instead, they sent me an upgrade prompt. That's a small thing in isolation, but it tells you what the system is optimized for. When a paying customer hits a wall, the default response isn't to make it right. It's to make a sale. That isn't a bug; it's how the organization is structured to behave.
 
@@ -110,7 +110,7 @@ In a world where functionality is free, care is what's left to compete on. Softw
 
 But I don't know yet what that looks like at the scale of an organization. When the agent is mine and runs on my infrastructure, the picture is clean. At larger scale, the questions get concrete.
 
-Will Intuit's four AI agents serve the user, or be optimized for the same upsell as the rest of the product? Does the agent layer end up owned by whoever owns the bank account? Ramp, Brex, and Mercury are already doing accounting-adjacent work from the spend side, without calling themselves accounting software. What about the accountant channel? Roughly 600,000 US firms maintain QuickBooks ProAdvisor relationships, and they're the trust layer between small businesses and the tax-filing machinery. Their endorsement may matter more than the ledger underneath.
+Will Intuit's AI agents serve the user, or be optimized for the same upsell as the rest of the product? Will they let customers export the agent's full memory in plain text? Does the agent layer end up owned by whoever owns the bank account? Ramp, Brex, and Mercury are already doing accounting-adjacent work from the spend side, without calling themselves accounting software. What about the accountant channel? Roughly 600,000 US firms maintain QuickBooks ProAdvisor relationships, and they're the trust layer between small businesses and the tax-filing machinery. Their endorsement may matter more than the ledger underneath.
 
 I don't have answers to any of those. If you've watched a company work on one of them, I'd love to read about it.
 
