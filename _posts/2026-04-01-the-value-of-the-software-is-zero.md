@@ -20,7 +20,7 @@ I needed to send my P&L and balance sheet to my accountant to prepare my 2025 ta
 
 I spent over an hour with it. The assistant lost context at least three times in that hour, asking me questions I'd already answered. Then the credits ran out and a paywall appeared.
 
-That's when I learned the assistant wasn't part of my QuickBooks subscription. It was a metered trial of an add-on feature, presented inside of the product. Had the assistant shown me that it was capable of resolving my problem quickly and efficiently, I might have considered paying more for it.
+That's when I learned the assistant wasn't part of my QuickBooks subscription. It was a metered trial of an add-on feature, presented inside of the product.
 
 But the AI assistant was just the last straw. The product itself works against me. Ads for services I don't need keep returning no matter how many times I dismiss them, despite my paying for the product. Session after session, my attention gets hijacked the same way. None of this is accidental.
 
