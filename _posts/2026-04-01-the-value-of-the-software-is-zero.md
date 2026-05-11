@@ -18,7 +18,7 @@ Tonight I decided I was done with QuickBooks. By the end of the night, I'd confi
 
 I needed to send my P&L and balance sheet to my accountant to prepare my 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried Intuit's new AI assistant, which was in beta.
 
-I spent over an hour with it. The assistant occasionally lost context, asking me questions I'd already answered. By the third such question, I knew this wasn't going to work. Then the credits ran out and a paywall appeared.
+I spent over an hour with it. The assistant lost context at least three times in that hour, asking me questions I'd already answered. Then the credits ran out and a paywall appeared.
 
 That's when I learned the assistant wasn't part of my QuickBooks subscription. It was a metered trial of an add-on feature, presented inside of the product. Had the assistant shown me that it was capable of resolving my problem quickly and efficiently, I might have considered paying more for it.
 
