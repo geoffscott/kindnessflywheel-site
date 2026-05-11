@@ -18,7 +18,7 @@ Tonight I decided I was done with QuickBooks. By the end of the night, I'd confi
 
 I needed to send my P&L and balance sheet to my accountant to prepare my 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried Intuit's new AI assistant, which was in beta.
 
-I spent over an hour with it. The assistant lost context at least three times in that hour, asking me questions I'd already answered. Then the credits ran out and a paywall appeared. That's when I learned the assistant wasn't part of my QuickBooks subscription. It was a metered trial of an add-on feature, presented inside of the product.
+I spent over an hour with it. The assistant was in beta, and beta software is expected to be rough. The assistant lost context at least three times in that hour, asking me questions I'd already answered. Then the credits ran out and a paywall appeared. That's when I learned the assistant wasn't part of my QuickBooks subscription. It was a metered trial of an add-on feature, presented inside of the product. The roughness was a beta-software issue. Choosing to charge for access to it in that state was a business decision.
 
 But the AI assistant was just the last straw. The product itself works against me. Ads for services I don't need keep returning no matter how many times I dismiss them, despite my paying for the product. Session after session, my attention gets hijacked the same way. None of this is accidental.
 
