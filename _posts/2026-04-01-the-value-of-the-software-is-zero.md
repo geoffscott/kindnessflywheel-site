@@ -12,15 +12,15 @@ excerpt: >
   how we think about every knowledge-work tool.
 ---
 
-Tonight I decided I was done with QuickBooks. By the end of the night, I'd confirmed something I'd been working through for weeks.
+Tonight I decided I was done with QuickBooks. By the end of the night, I'd confirmed something I'd been pondering for weeks.
 
 ## The last straw
 
 I needed to send my P&L and balance sheet to my accountant to prepare my 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried Intuit's new AI assistant, which was in beta.
 
-I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. I don't fault Intuit for shipping their AI system this early. They're a large company, and I'd have expected the bar for release to be higher than what I saw. Maybe they wanted to be more experimental, which I would applaud. I don't know. The issue isn't that they released it early.
+I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. Then I hit a usage cap and got prompted to pay for more credits to keep going.
 
-The issue is that Intuit released it early and expected me to start paying for it after I'd been using it for an hour. That's where the implicit deal of a beta breaks. If you ship early and ask people to figure it out alongside you, those people are helping you refine the product for commercial readiness. Charging them to keep going once they've done that work flips the relationship. They aren't co-piloting an early release anymore; they're customers of an unfinished product.
+That last move flipped the relationship. I'm already paying for QuickBooks. The AI assistant is in beta, shipped inside the product I pay for. When the company asks me to pay extra to keep helping them refine an unfinished feature, what's left isn't an early-access partnership. It's a paying customer of a half-built product, being upsold on it.
 
 But the AI assistant was just the last straw. The product itself works against me. Ads for services I don't need keep returning no matter how many times I dismiss them, despite my paying for the product. Session after session, my attention gets hijacked the same way. None of this is accidental.
 
