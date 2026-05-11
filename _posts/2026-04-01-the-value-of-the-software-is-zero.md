@@ -12,7 +12,7 @@ excerpt: >
   how we think about every knowledge-work tool.
 ---
 
-Tonight I decided I was done with QuickBooks. By the end of the night, I'd confirmed something I'd been guessing at for months.
+Tonight I decided I was done with QuickBooks. By the end of the night, I'd confirmed something I'd been working through for months.
 
 ## The last straw
 
