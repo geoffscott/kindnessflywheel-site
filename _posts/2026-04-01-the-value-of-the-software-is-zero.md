@@ -74,6 +74,8 @@ I want to be honest about the limits of what I proved tonight, because I think t
 
 **I don't know if this is cheaper.** The post might read like I'm saving money. Maybe. But it depends on which LLMs I use and how much they cost per interaction. An agent that reconciles your books daily might cost more in API calls than a QuickBooks subscription. I genuinely don't know yet. I'll find out and report back.
 
+**The business model isn't proven.** Bench, the closest large-scale bookkeeping service to what I'm describing, shut down in December 2024 for hybrid-economics and governance reasons that don't directly test the autonomous-agent thesis. Bench was human bookkeepers with software, not the other way around. The pure-agent version hasn't been tried at scale yet, and that absence is a finding, not an answer. There's also a cost-trajectory question underneath all of this. LLM, hardware, and energy costs have been falling sharply, but they don't have to keep falling. An autonomous-agent approach that pencils today might not if any of those reverse.
+
 **The skills I built tonight aren't ready for anyone else.** They handle my edge cases, my chart of accounts, my specific QuickBooks export format. I plan to open source them: MIT-licensed, free forever for core functionality. But "planning to open source" and "production-ready for other people" are very different things. Significant development separates the two.
 
 **The trajectory is clear but the timeline is uncertain.** I can see the path to running my consulting business on this. I can't tell you when I'll finish walking it.
@@ -116,4 +118,4 @@ I don't have answers to any of those. If you've watched a company work on one of
 
 ---
 
-*Sources: Luca Pacioli, Summa de arithmetica (1494). Convergence figures via [The Race to the Mean](/2026/03/28/the-race-to-the-mean), citing the Stanford AI Index 2025. Morningstar 2025 (Intuit economic moat downgrade). CPA Practice Advisor and Intuit Investor Relations, July 2025 (Intuit AI agents launch). Yahoo Finance, 2025 (Intuit stock performance). Intuit QuickBooks ProAdvisor program (accountant-channel scale). Timestamps and migration details from my own session, the night of March 31, 2026.*
+*Sources: Luca Pacioli, Summa de arithmetica (1494). Convergence figures via [The Race to the Mean](/2026/03/28/the-race-to-the-mean), citing the Stanford AI Index 2025. Morningstar 2025 (Intuit economic moat downgrade). CPA Practice Advisor and Intuit Investor Relations, July 2025 (Intuit AI agents launch). Yahoo Finance, 2025 (Intuit stock performance). Intuit QuickBooks ProAdvisor program (accountant-channel scale). TechCrunch and CBC News, December 2024 (Bench Accounting shutdown). Timestamps and migration details from my own session, the night of March 31, 2026.*
