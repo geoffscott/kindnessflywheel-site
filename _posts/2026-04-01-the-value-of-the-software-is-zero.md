@@ -12,11 +12,11 @@ excerpt: >
   how we think about every knowledge-work tool.
 ---
 
-Tonight I decided I was done with QuickBooks. In the process, I tested an idea I'd been holding for months.
+Tonight I decided I was done with QuickBooks. By the end of the night, I'd confirmed something I'd been guessing at for months.
 
 ## The last straw
 
-I needed to prep my P&L and balance sheet for my accountant ahead of the 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried QuickBooks' new AI assistant, the beta one they've been promoting.
+I needed to prep my P&L and balance sheet so my accountant could file my 2025 taxes. I had a discrepancy I couldn't resolve, so I tried QuickBooks' new AI assistant, the beta one they've been promoting.
 
 I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. I don't fault Intuit for shipping their AI system this early. They're a large company, and I'd have expected the bar for release to be higher than what I saw. Maybe they wanted to be more experimental, which I would applaud. I don't know. The issue isn't that they released it early.
 
@@ -48,7 +48,7 @@ Here's what happened. The timestamps are real.
 
 **21:18–21:36.** Corrections, trial balance reconciliation, final clean reports. Forty-eight minutes total, start to finish.
 
-Let me be precise about what happened. I exported my QuickBooks data and gave my OpenClaw agent its first bookkeeping capability: an Agent Skill that ingests the export, runs it through Beancount, and produces clean statements. It's not production-ready for general use, but it met my needs tonight: data import, trial balance reconciliation, clean financial statements. More importantly, it solved the problem that started all of this. I could see exactly where the discrepancy was, and I could give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
+Let me be precise about what happened. I exported my QuickBooks data and gave my OpenClaw agent its first bookkeeping capability: an Agent Skill that reads the export, runs it through Beancount, and produces clean statements. It's not production-ready for general use, but it met my needs tonight: data import, trial balance reconciliation, clean financial statements. More importantly, it solved the problem that started all of this. I could see exactly where the discrepancy was, and I could give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
 
 But that one feature was enough to see something clearly.
 
@@ -58,7 +58,7 @@ But that one feature was enough to see something clearly.
 
 If one person and their AI agent can migrate a company's financial data and produce clean statements in forty-eight minutes, even if that's just the first step, the speed itself reveals where the value lives. It's not in the ledger math. It never was. The ledger underneath is a commodity. It has been for centuries. Which one I use barely matters.
 
-There are only a handful of major features between what I built tonight and something I could run my consulting business on: bank feed integration, recurring transaction handling, simple invoicing, tax-ready exports. Each is a solved problem. The same feature set would cover most small businesses, not just mine. I'm not claiming to be on the verge of replacing QuickBooks for a hundred-person company. I am claiming the trajectory is clear, even if the timeline is uncertain.
+There are only a handful of major features between what I built tonight and something I could run my consulting business on: bank feed integration, recurring transaction handling, simple invoicing, tax-ready exports. Each is a solved problem. The same feature set would cover most small businesses, not just mine. I'm not claiming to be on the verge of replacing QuickBooks for a hundred-person company. The narrower claim still stands: the trajectory is clear, even if the timeline is uncertain.
 
 But the insight isn't about the features remaining. It's about what I noticed when the first one fell so easily. The hard part was never the functionality. The hard part is the accumulated context. The agent has to understand *your* business, remember where things are, know your patterns: which expenses recur, how you categorize things, what your accountant needs and when. That context builds through interaction, through the agent and the human working together over time.
 
