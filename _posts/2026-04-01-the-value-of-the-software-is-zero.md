@@ -68,7 +68,7 @@ But the insight isn't about the features remaining. It's about what I noticed wh
 
 I want to be honest about the limits of what I proved tonight, because I think the honest version makes a stronger argument than the overclaimed one.
 
-**I built this because I could.** I'm a CTO. My current work is helping clients develop autonomous AI agents, so the architecture for this was already mapped out. Most people can't do this yet. The bar for building something like this is dropping fast, but it hasn't dropped to where the average small-business owner is.
+**I built this because I could.** I'm a CTO. My current work includes helping clients develop autonomous AI agents, so the architecture for this was already mapped out. Most people can't do this yet. The bar for building something like this is dropping fast, but it hasn't dropped to where the average small-business owner can vibe-code an accounting system.
 
 **I migrated one feature, not the whole product.** QuickBooks has network effects that aren't trivial to replace: accountant integrations, tax filing workflows, payroll connections. The bookkeeping math is the easy part; the ecosystem around it is the hard part. I have significant development ahead before I can fully stop paying Intuit.
 
