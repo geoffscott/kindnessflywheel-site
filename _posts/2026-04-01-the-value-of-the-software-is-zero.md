@@ -102,12 +102,18 @@ And AI doesn't change this. Intuit is shipping AI agents of its own. Four went l
 
 The alternative is a system that's actually on your side: an agent that knows your business, that gets better the longer you work together, that doesn't have a financial incentive to keep you confused or locked in. Books in plain text, data in a format you own, an agent running on infrastructure you control.
 
+One detail matters more than it looks. An AI agent that won't let you fully export its memory has its own form of lock-in: the context you've built becomes the thing you can't take with you. Portable memory is what makes "on your side" real. Without it, you've traded the ledger lock-in for a context lock-in, and the new one is harder to see.
+
 **This is what I think the kindness flywheel looks like in practice.** Not kindness as softness, but kindness operationalized: systems built to serve the people who use them rather than to extract from them.
 
-In a world where functionality is free, care is what's left to compete on. Software capability is already commoditizing; the question is what we build in its place. I think what we build instead is relationships between people and the systems that serve them, with accumulated context and a structural incentive for the tool to get it right rather than to optimize for a quarterly metric.
+In a world where functionality is free, care is what's left to compete on. Software capability is already commoditizing; the question is what we build in its place. I think what we build instead is relationships between people and the systems that serve them, with accumulated context and a structural incentive for the tool to get it right rather than to optimize for a quarterly result.
 
-But I don't know yet what that looks like at the scale of an organization. When the agent that knows my business is mine, running on my infrastructure and owned by me, the picture is clean. What's the equivalent for a company of fifty people, or five thousand? Whose context is it? Who maintains it? And what does it take, structurally, for the incentive to stay aligned with the user rather than against them? If you've watched a company solve any piece of that, I want to read it.
+But I don't know yet what that looks like at the scale of an organization. When the agent is mine and runs on my infrastructure, the picture is clean. At larger scale, the questions get concrete.
+
+Will Intuit's four AI agents serve the user, or be optimized for the same upsell as the rest of the product? Does the agent layer end up owned by whoever owns the bank account? Ramp, Brex, and Mercury are already doing accounting-adjacent work from the spend side, without calling themselves accounting software. What about the accountant channel? Roughly 600,000 US firms maintain QuickBooks ProAdvisor relationships, and they're the trust layer between small businesses and the tax-filing machinery. Their endorsement may matter more than the ledger underneath.
+
+I don't have answers to any of those. If you've watched a company work on one of them, I want to read it.
 
 ---
 
-*Sources: Luca Pacioli, Summa de arithmetica (1494). Convergence figures via [The Race to the Mean](/2026/03/28/the-race-to-the-mean), citing the Stanford AI Index 2025. Morningstar 2025 (Intuit economic moat downgrade). CPA Practice Advisor and Intuit Investor Relations, July 2025 (Intuit AI agents launch). Yahoo Finance, 2025 (Intuit stock performance). Timestamps and migration details from my own session, the night of March 31, 2026.*
+*Sources: Luca Pacioli, Summa de arithmetica (1494). Convergence figures via [The Race to the Mean](/2026/03/28/the-race-to-the-mean), citing the Stanford AI Index 2025. Morningstar 2025 (Intuit economic moat downgrade). CPA Practice Advisor and Intuit Investor Relations, July 2025 (Intuit AI agents launch). Yahoo Finance, 2025 (Intuit stock performance). Intuit QuickBooks ProAdvisor program (accountant-channel scale). Timestamps and migration details from my own session, the night of March 31, 2026.*
