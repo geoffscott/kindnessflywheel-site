@@ -20,7 +20,7 @@ I needed to send my P&L and balance sheet to my accountant to prepare my 2025 ta
 
 I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. Then I hit a usage cap and got prompted to pay for more credits to keep going.
 
-That last move flipped the relationship. I'm already paying for QuickBooks. The AI assistant is in beta, shipped inside the product I pay for. When the company asks me to pay extra to keep helping them refine an unfinished feature, what's left isn't an early-access partnership. It's a paying customer of a half-built product, being upsold on it.
+The AI assistant is structured as a metered free trial of an add-on, separate from the QuickBooks subscription itself. That structure wasn't surfaced as I used it. The prompt to pay arrived after the credits ran out, about an hour in. I wouldn't mind paying extra for an AI feature. Paying extra for one that had spent that hour losing context and asking me questions I'd already answered, layered inside a trial I hadn't been told I was running, is a different kind of decision. It tells you what the rest of the product is optimizing for.
 
 But the AI assistant was just the last straw. The product itself works against me. Ads for services I don't need keep returning no matter how many times I dismiss them, despite my paying for the product. Session after session, my attention gets hijacked the same way. None of this is accidental.
 
