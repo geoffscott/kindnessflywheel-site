@@ -16,7 +16,7 @@ Tonight I decided I was done with QuickBooks. By the end of the night, I'd confi
 
 ## The last straw
 
-I needed to send my P&L and balance sheet to my accountant so he could prepare my 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried QuickBooks' new AI assistant, the beta one they've been promoting.
+I needed to send my P&L and balance sheet to my accountant to prepare my 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried Intuit's new AI assistant. It's in beta, and they've been pushing it hard.
 
 I spent over an hour with it. It couldn't hold context. By the third time it asked me a question I'd already answered, I knew this wasn't going to work. I don't fault Intuit for shipping their AI system this early. They're a large company, and I'd have expected the bar for release to be higher than what I saw. Maybe they wanted to be more experimental, which I would applaud. I don't know. The issue isn't that they released it early.
 
