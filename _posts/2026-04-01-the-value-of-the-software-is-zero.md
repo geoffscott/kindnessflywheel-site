@@ -112,7 +112,7 @@ But I don't know yet what that looks like at the scale of an organization. When 
 
 Will Intuit's four AI agents serve the user, or be optimized for the same upsell as the rest of the product? Does the agent layer end up owned by whoever owns the bank account? Ramp, Brex, and Mercury are already doing accounting-adjacent work from the spend side, without calling themselves accounting software. What about the accountant channel? Roughly 600,000 US firms maintain QuickBooks ProAdvisor relationships, and they're the trust layer between small businesses and the tax-filing machinery. Their endorsement may matter more than the ledger underneath.
 
-I don't have answers to any of those. If you've watched a company work on one of them, I want to read it.
+I don't have answers to any of those. If you've watched a company work on one of them, I'd love to read about it.
 
 ---
 
