@@ -12,106 +12,86 @@ excerpt: >
   how we think about every knowledge-work tool.
 ---
 
-Tonight I decided I was done with QuickBooks. By the end of the night, I'd confirmed something I'd been pondering for weeks.
+Tonight I decided that I was done with QuickBooks. By the end of the night, I'd confirmed something I'd been thinking about for weeks.
 
 ## The last straw
 
-I needed to send my P&L and balance sheet to my accountant to prepare my 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried Intuit's new AI assistant, which was in beta.
+I needed to send my P&L and balance sheet to my accountant to prepare my 2025 tax filings. I had a discrepancy I couldn't resolve, so I tried Intuit's new AI assistant, which was offered at exactly the moment that I needed help.
 
-I spent over an hour with it. The assistant was in beta, and beta software is expected to be rough. The assistant lost context at least three times in that hour, asking me questions I'd already answered. Then the credits ran out and a paywall appeared. That's when I learned the assistant wasn't part of my QuickBooks subscription. It was a metered trial of an add-on feature, presented inside of the product. The roughness was a beta-software issue. Choosing to charge for access to it in that state was a business decision.
+The assistant said that was in beta, so I expected some fit and finish issues. Over the next hour, it lost track of our conversation at least three times, asking me basic contextual questions that I had already answered; and then it told me that my free trial had run out and asked me if I wanted pay to continue the conversation. This was the first indication that the new AI assistant was not a new feature of my QuickBooks subscription but a metered trial of a new product, offered inside of the product that I pay to use. The placement of the offer was perfect. The roughness of the product was typical of AI products that are early in their development. Choosing to ask customers to pay for a product that wasn't yet capable of fulfilling its basic purpose was a business decision.
 
-But the AI assistant was just the last straw. The product itself works against me. Ads for services I don't need keep returning no matter how many times I dismiss them, despite my paying for the product. Session after session, my attention gets hijacked the same way. None of this is accidental.
+But the AI assistant was just the last straw. I find the Quickbooks user experience in general to be overly complex for the things that I need to do most often: send invoices, post transactions, and run basic reports. This generally poor UX is made worse by persistent advertisements for other Intuit products and services that I don't need and aren't relevant to my business. I have to dismiss two of these ads every time I go to manage my bank transactions in order to regain the full use of my screen. I searched for a global setting to turn off the ads and found one mentioned in a user forum; but Quickbooks seems to ignore it and keeps on showing me the same ads for the same products, no matter how many times I dismiss them. None of this is accidental.
 
-Someone designed this. The persistent ads, the usage cap on a beta, the upsell when a session fails: those are individual decisions, but they're consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit set out to make a worse product. I think the system they're working inside rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it. The FTC reached a related conclusion in January 2024, when it ruled Intuit had engaged in deceptive advertising and barred the company from advertising services as "free" without clear disclosure. The pattern shows up where regulators look.
+These product design decisions are very consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit intended to design a less usable product. I think that the organization inside of which they're working rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it. The FTC reached a related conclusion in January 2024, when it ruled Intuit had engaged in deceptive advertising and barred the company from advertising services as "free" without clear disclosure.
 
 ## What I'd been designing
 
-I've been frustrated with QuickBooks for a long time, and not just with the product. With the posture: the persistent upsells, the creeping price increases, the misalignment between what I need (accurate books, minimal friction) and what the company optimizes for (revenue extraction).
+I've been frustrated with QuickBooks for a long time: the poor UX, the persistent cross-sells, the price increases, the misalignment between what I need (accurate books, minimal friction) and what the company optimizes for (revenue extraction).
 
 So I'd been researching an alternative. Beancount is open-source, plain-text, double-entry accounting that you can version-control. It's human-readable, it belongs to you, and it implements five hundred years of accounting principles in a format that doesn't depend on a vendor.
 
 I'd designed the product before writing a line of code, working through the problem, the solution, and who it was for. The shape that emerged was different from QuickBooks: not an accounting package, but an autonomous bookkeeper agent that uses one. Beancount served as the ledger, Plaid handled bank feeds, and Agent Skills gave the AI the abilities a bookkeeper actually exercises: reconciling transactions, categorizing them, and producing reports.
 
-I knew I could build it.
-
-But tonight, I started, without planning to.
+I knew that I could build it and had a strong idea of how I might do so. I hadn't planned to start building it yet, but that's what happened tonight.
 
 ## Forty-eight minutes
 
 Here's what happened. The timestamps are real.
 
-**20:48.** Exported my data from QuickBooks. Uploaded it to my agent. Asked it to create a double-entry accounting system based on beancount, starting with the first feature: import a QuickBooks data export zip file.
+20:48. Exported my data from QuickBooks. Uploaded it to my OpenClaw agent. Asked it to create a double-entry accounting system based on beancount, starting with the first feature: import and reconcile a QuickBooks data export zip file.
 
-**20:59.** First P&L and balance sheet generated. Eleven minutes from "I'm done with QuickBooks" to financial statements.
+20:59. First P&L and balance sheet generated. Eleven minutes from "I'm done with QuickBooks" to financial statements.
 
-**21:18–21:36.** Corrections, trial balance reconciliation, final clean reports. Forty-eight minutes total, start to finish.
+21:18–21:36. Corrections, trial balance reconciliation, final clean reports. Forty-eight minutes total, start to finish.
 
-Let me be precise about what happened. I exported my QuickBooks data and gave my OpenClaw agent its first bookkeeping capability: an Agent Skill that reads the export, runs it through Beancount, and produces clean statements. It's not production-ready for general use, but it met my needs tonight: data import, trial balance reconciliation, clean financial statements. More importantly, it solved the problem that started all of this. I could see exactly where the discrepancy was, and I could give my accountant what he needed to file my taxes. QuickBooks also does bank feeds, recurring invoices, payroll integrations, tax calculations, and a dozen other things I didn't touch tonight.
+Let me be precise about what happened. I exported my QuickBooks data and gave my agent its first bookkeeping capability: an Agent Skill that reads the export, runs it through Beancount, and produces clean statements. It's not production-ready for general use, but it met my needs tonight: data import, trial balance reconciliation, clean financial statements. More importantly, my agent then helped me solve the accounting problem that started all of this. I could see exactly where the discrepancy was, and I could give my accountant what he needed to file my taxes.
 
-But that one feature was enough to see something clearly.
+Working with my agent to solve my accounting problem was enough to see something clearly.
 
-## The insight
+## The insights
 
-**The value of the software is zero. I mean that literally, not approximately.** Bookkeeping is a 500-year-old solved problem. Double-entry accounting hasn't changed since Luca Pacioli published his treatise in 1494. The math is the math. Any competent system can do it. And now, any AI agent with the right instructions can replicate the functionality in minutes.
+The value of the software is almost zero. Bookkeeping is a 500-year-old solved problem. Double-entry accounting hasn't changed since Luca Pacioli published his treatise in 1494. The requirements couldn't be more clear; and an AI agent with a skilled user and the right requirements can replicate the necessary functionality in a matter of days.
 
-If one person and their AI agent can migrate a company's financial data and produce clean statements in forty-eight minutes, even if that's just the first step, the speed itself reveals where the value lives. It's not in the ledger math. It never was. The ledger underneath is a commodity. It has been for centuries. Which one I use barely matters.
+The cost and risk of switching software is also approaching zero. If one person and their AI agent can migrate a small company's financial data and produce clean statements in forty-eight minutes, even if that's just the first step, the speed itself reveals that system implementation risk is no longer the moat that it used to be.
 
-There are only a handful of major features between what I built tonight and something I could run my consulting business on: bank feed integration, recurring transaction handling, simple invoicing, tax-ready exports. Each is a solved problem. The same feature set would cover most small businesses, not just mine. I'm not claiming to be on the verge of replacing QuickBooks for a hundred-person company. The narrower claim still stands: the trajectory is clear, even if the timeline is uncertain.
+There are only a handful of major features between what I built tonight and something on which I could run my solo consulting business: bank feed integration, recurring transaction handling, simple invoicing, accountant-ready reports. Each is a solved problem. A similar feature set would cover many small businesses, as well as many small non-profits. I'm not claiming to be on the verge of replacing QuickBooks for a restaurant, a small consulting company, or an early stage tech startup yet. But the path is clear, even if the timeline is uncertain.
 
-But the insight isn't about the features remaining. It's about what I noticed when the first one fell so easily. The hard part was never the functionality. The hard part is the accumulated context. The agent has to understand *your* business, remember where things are, know your patterns: which expenses recur, how you categorize things, what your accountant needs and when. That context builds through interaction, through the agent and the human working together over time.
-
-**The value lives in that relationship: in the accumulated context, in the way the agent and I have learned to work together. Not in the software underneath it.**
+The value in business software will come the accumulated context that an agent can build through interaction with skilled users over time and their willingness to be accountable for end user outcomes, whether they are employees of the company that makes the software or end-users of an open-source product. My agent will increasingly understand my business, remembering where things are, knowing my patterns: which clients are new, which expenses recur, how I categorize transactions, what my accountant needs and when. It will proactively recognize anomalies and continuously improve how we work together.
 
 ## What I don't know yet
 
-I want to be honest about the limits of what I proved tonight, because I think the honest version makes a stronger argument than the overclaimed one.
+I built this because I could. I'm a CTO and have been running my own businesses for almost 15 years. I'm familiar enough with my accounting needs. My current work includes helping clients develop autonomous AI agents; so I had already designed the architecture for this kind of application. The bar for building something like this is dropping rapidly, but it hasn't dropped to a point where the average small-business owner can vibe-code an accounting system.
 
-**I built this because I could.** I'm a CTO. My current work includes helping clients develop autonomous AI agents, so the architecture for this was already mapped out. The bar for building something like this is dropping fast, but it hasn't dropped to where the average small-business owner can vibe-code an accounting system.
+The import feature that I built tonight isn't ready for anyone else to use. It handles the chart of accounts, transaction history, and edge cases that it encountered in importing and reconciling my specific QuickBooks data. It needs to learn from importing a lot of other companies' books before it's ready for general use.
 
-**I migrated one feature, not the whole product.** QuickBooks has network effects that aren't trivial to replace: accountant integrations, tax filing workflows, payroll connections. The bookkeeping math is the easy part; the ecosystem around it is the hard part. I have significant development ahead before I can fully stop paying Intuit.
+I only built one feature, not a whole small business accounting product. Even for my own very basic needs, I still have to implement automated bank transaction feeds and categorization, and invoicing and accounts receivable management before I can stop paying Intuit for Quickbooks.
 
-**I don't know if this is cheaper.** The post might read like I'm saving money. Maybe. But it depends on which LLMs I use and how much they cost per interaction. An agent that reconciles your books daily might cost more in API calls than a QuickBooks subscription. I genuinely don't know yet. I'll find out and report back.
+I don't know if a full-featured agentic bookkeeper will be more cost-effective than a human bookkeeper using a traditional SaaS accounting package. Whether I save money or not depends on many factors including which LLMs I use, how much they cost, how effectively the system manages context windows, and the cost of traditional bookkeeping services and software in general. An agent that reconciles my books every month might cost more in LLM costs than a human bookkeeper using QuickBooks or one of its competitors.
 
-**The skills I built tonight aren't ready for anyone else.** They handle my edge cases, my chart of accounts, my specific QuickBooks export format. I plan to open source them: MIT-licensed, free forever for core functionality. But "planning to open source" and "production-ready for other people" are very different things. Significant development separates the two.
-
-**The trajectory is clear but the timeline is uncertain.** I can see the path to running my consulting business on this. I can't tell you when I'll finish walking it.
-
-## Why the honest version is the stronger one
-
-Here's what I keep coming back to.
-
-If even an incomplete migration of one feature (data export, import, and reporting) proves that the functionality isn't the hard part, what happens when the rest gets built? What happens when bank feeds work, when reconciliation is automated, when tax-ready exports are a single command?
-
-**The functionality was never the moat.** QuickBooks has been selling a 500-year-old solved problem wrapped in lock-in. And the lock-in is dissolving.
-
-This is the same pattern we're seeing across every knowledge-work tool. In [the inaugural post on this site](/2026/03/28/the-race-to-the-mean), I wrote about convergence: how AI is compressing the execution layer of every knowledge profession. The gap between the best AI models and the rest shrank from 17.5 percentage points to 0.3 in a single year. Feature-level replication now takes hours to days. This isn't just happening to accounting software. It's happening everywhere.
-
-Even the market sees it. Morningstar downgraded Intuit's economic moat from Wide to Narrow in 2025, citing AI disruption risk, and the stock dropped roughly 36 percent over the same period on AI-related fears. Venture capital is taking shots at the same opening: Digits has raised around $100M to build what it calls an "autonomous general ledger" aimed directly at QuickBooks, and reported 11x revenue growth in 2024. The argument I'm making is one that institutional analysts and venture capital have already started pricing in.
-
-When capability converges to zero cost, what's left?
+What I do know is that my annual Quickbooks subscription renews in October and I intend to cancel it before then; so stay tuned!
 
 ## What it means
 
-Intuit had a choice tonight. After an hour with a beta product that wasn't ready, they could have said: *We're sorry that didn't work. Here's a credit. Let us make this right.* That would have cost them almost nothing and might have kept me for another year.
+If even an incomplete implementation of one feature demonstrates that the functionality isn't the hard part, what happens when bank feeds work, when reconciliation is automated, and when accountant-ready reports get generated with a single prompt? Intuit has been selling a solution to an extremely well-understood problem that's been protected by a moat that is rapidly dissolving.
 
-Instead, they sent me an upgrade prompt. That's a small thing in isolation, but it tells you what the system is optimized for. When a paying customer hits a wall, the default response isn't to make it right. It's to make a sale. That isn't a bug; it's how the organization is structured to behave.
+Morningstar downgraded Intuit's economic moat from Wide to Narrow in 2025, citing AI disruption risk; and the stock dropped roughly 36 percent over the same period on AI-related fears. Venture capital is taking shots at the same opening: Digits raised $100M to build what it calls an "autonomous general ledger" aimed directly at QuickBooks and reported 11x revenue growth in 2024.
 
-And AI doesn't change this. Intuit is shipping AI agents of its own. Four went live inside QuickBooks Online on July 1, 2025, with more on the way. The capability is real. But those agents are running inside the same organization that put a usage cap on a beta and sent me an upgrade prompt when its product failed me. Whatever the agents can do, they will do in service of what the organization is measured on.
+Intuit is responding, launching four of its own AI agents for Quickbooks in 2025, with more on the way. I'm confident that Intuit and all of their competitors' agents (including my own) will soon have similar capabilities. But in Intuit's case, those agents are being developed by the same organization that thought that it was a good idea to persistently abuse my limited time, attention, and screen real estate to push products and services that aren't relevant to my business. Whatever their agents offer, they will do in service of what the organization is measured on.
 
-The alternative is a system that's actually on your side: an agent that knows your business, that gets better the longer you work together, that doesn't have a financial incentive to keep you confused or locked in. Books in plain text, data in a format you own, an agent running on infrastructure you control.
+Intuit made a choice. After an hour with a beta product that wasn't ready, they could have allowed me to keep working with it for free until I figured out my accounting problem, used the interaction to improve their product, and then asked if I'd be willing to pay for it. Instead, they asked for payment to continue a clearly unproductive conversation. That's a small choice in isolation, but it indicates how the organization is incentivized to behave.
 
-One detail matters more than it looks. An AI agent that won't let you fully export its memory has its own form of lock-in: the context you've built becomes the thing you can't take with you. Portable memory is what makes "on your side" real. Without it, you've traded the ledger lock-in for a context lock-in, and the new one is harder to see.
+An alternative is a system that's actually designed to serve customer needs first: an agent that knows your business and gets better the longer you work together, financial data and business context that's stored in an open format that you can easily manage and export, and if you prefer, an agent that runs on infrastructure that you control.
 
-**This is what I think the kindness flywheel looks like in practice.** Not kindness as softness, but kindness operationalized: systems built to serve the people who use them rather than to extract from them.
+Yes, enabling portable agent memory and context allows customers to easily switch vendors. This is a requirement that customers can and should demand. If we don't, natural business incentives will lead vendors to implement various forms of context lock-in, forcing customers to choose between migrating to a better solution and giving up potentially years of business context that may not be documented anywhere else.
 
-In a world where functionality is free, care is what's left to compete on. Software capability is already commoditizing; the question is what we build in its place. I think what we build instead is relationships between people and the systems that serve them, with accumulated context and a structural incentive for the tool to get it right rather than to optimize for a quarterly result.
+This is what the kindness flywheel looks like in practice: organizations that embody radical customer empathy as a business strategy, from individual contributors, to management, executive leadership, and investors, delivering products and services that grow shareholder value because they rely on trust that can only be earned by consistently meeting customer needs.
 
-But I don't know yet what that looks like at the scale of an organization. When the agent is mine and runs on my infrastructure, the picture is clean. At larger scale, the questions get concrete.
+Will Intuit's AI agents serve the user, or be optimized for their quarterly results, like the rest of the product? Will they let customers export their agents' full memory and accumulated business context in plain text?
 
-Will Intuit's AI agents serve the user, or be optimized for the same upsell as the rest of the product? Will they let customers export the agent's full memory in plain text? Does the agent layer end up owned by whoever owns the bank account? Ramp, Brex, and Mercury are already doing accounting-adjacent work from the spend side, without calling themselves accounting software. What about the accountant channel? Roughly 600,000 US firms maintain QuickBooks ProAdvisor relationships, and they're the trust layer between small businesses and the tax-filing machinery. Their endorsement may matter more than the ledger underneath.
+Does the agent layer end up owned by whoever owns the bank account? Ramp, Brex, and Mercury are already doing accounting-adjacent work from the spend side, without calling themselves accounting software. What about the accountant channel? Roughly 600,000 US firms maintain QuickBooks ProAdvisor relationships, and they're the trust layer between small businesses and the tax-filing machinery. Their endorsement may matter more than the ledger underneath.
 
 I don't have answers to any of those. If you've watched a company work on one of them, I'd love to read about it.
 
 ---
 
-*Sources: Luca Pacioli, Summa de arithmetica (1494). Convergence figures via [The Race to the Mean](/2026/03/28/the-race-to-the-mean), citing the Stanford AI Index 2025. Morningstar 2025 (Intuit economic moat downgrade). CPA Practice Advisor and Intuit Investor Relations, July 2025 (Intuit AI agents launch). Yahoo Finance, 2025 (Intuit stock performance). Digits funding and growth figures via GlobeNewswire and company materials, 2024–2025. Intuit QuickBooks ProAdvisor program (accountant-channel scale). [FTC final order, January 2024](https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-issues-opinion-finding-turbotax-maker-intuit-inc-engaged-deceptive-practices) (Intuit deceptive advertising ruling). Timestamps and migration details from my own session, the night of March 31, 2026.*
+*Sources: Luca Pacioli, Summa de arithmetica (1494). Morningstar 2025 (Intuit economic moat downgrade). CPA Practice Advisor and Intuit Investor Relations, July 2025 (Intuit AI agents launch). Yahoo Finance, 2025 (Intuit stock performance). Digits funding and growth figures via GlobeNewswire and company materials, 2024–2025. Intuit QuickBooks ProAdvisor program (accountant-channel scale). [FTC final order, January 2024](https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-issues-opinion-finding-turbotax-maker-intuit-inc-engaged-deceptive-practices) (Intuit deceptive advertising ruling). Timestamps and migration details from my own session, the night of March 31, 2026.*
