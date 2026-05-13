@@ -22,7 +22,7 @@ The assistant was in beta, so I expected some fit and finish issues. Over the ne
 
 But the AI assistant was just the last straw. I find the Quickbooks user experience in general to be overly complex for the things that I need to do most often: send invoices, post transactions, and run basic reports. This poor UX is made worse by persistent advertisements for other Intuit products and services that I don't need and aren't relevant to my business. I have to dismiss two of these ads every time I go to manage my bank transactions in order to regain the full use of my screen. I searched for a global setting to turn off the ads and found one mentioned in a user forum; but Quickbooks seems to ignore it and keeps on showing me the same ads for the same products, no matter how many times I dismiss them. None of this is accidental.
 
-These product design decisions are very consistent with each other, and they're consistent with what the organization is being measured on. I don't think anyone at Intuit intended to design a less usable product. I think that the organization inside of which they're working rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it. The FTC reached a related conclusion in January 2024, when it ruled Intuit had engaged in deceptive advertising and barred the company from advertising services as "free" without clear disclosure.
+These product design decisions are very consistent with each other, and they're indicative of how the organization is being measured. I don't think anyone at Intuit intended to design a less usable product. I think that the organization inside of which they're working rewards short-term revenue capture, and over time, that's what the product reflects. That's the part I take issue with: not the product, but the culture that produced it. The FTC reached a related conclusion in January 2024, when it ruled Intuit had engaged in deceptive advertising and barred the company from advertising services as "free" without clear disclosure.
 
 ## What I'd been designing
 
@@ -32,7 +32,7 @@ So I'd been researching an alternative. [Beancount](https://github.com/beancount
 
 I'd designed the product before writing a line of code, working through the problem, the solution, and who it was for. The shape that emerged was different from QuickBooks: not an accounting package, but an autonomous bookkeeper agent that uses one. Beancount served as the ledger, Plaid handled bank feeds, and Agent Skills gave the AI the abilities a bookkeeper actually exercises: reconciling transactions, categorizing them, and producing reports.
 
-I knew that I could build it and had a strong idea of how I might do so. I hadn't planned to start building it yet, but that's what happened tonight.
+I knew that I could build it and had a strong idea of how I might do so. I hadn't planned to start building it yet, but tonight I did.
 
 ## Forty-eight minutes
 
@@ -86,9 +86,9 @@ Yes, enabling portable agent memory and context allows customers to easily switc
 
 This is what the kindness flywheel looks like in practice: organizations that embody radical customer empathy as a business strategy, from individual contributors to management, executive leadership, and investors, delivering products and services that grow shareholder value because they rely on trust that can only be earned by consistently meeting customer needs.
 
-Will Intuit's AI agents serve the user, or be optimized for their quarterly results, like the rest of the product? Will they let customers export their agents' full memory and accumulated business context in plain text? Does the agent layer end up owned by whoever owns the bank account? Ramp, Brex, and Mercury are already doing accounting-adjacent work from the spend side, without calling themselves accounting software.
+Will Intuit's AI agents serve the user, or be optimized for their quarterly results, like the rest of the product? Will any incumbent voluntarily embrace open memory before they have to? Will buyers, from enterprise CIOs down to individual consumers, learn to demand portable memory before lock-in calcifies?
 
-I don't have answers to any of those. If you've watched a company work on one of them, I'd love to read about it.
+I don't have answers to any of these questions. If you're working on any of them, I'd love to hear about it.
 
 ---
 
