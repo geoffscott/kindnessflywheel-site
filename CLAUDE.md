@@ -40,7 +40,11 @@ Read `CONTRIBUTING.md` for full editorial guidelines, post format, and the five 
    - Create an author page in `_authors/their-name.md`.
    - See existing entries for format.
 
-6. **Open a pull request** to https://github.com/kindnessflywheel/kindnessflywheel-site with a short description of what's being contributed.
+6. **Submit the post.** Run `scripts/submit-post.sh _posts/<your-post>.md`. The script prepares a clean `post/<slug>` branch on the fork (one squashed commit, excluding anything under `.claude/authors/*/`) and prints a compare URL. Share that URL with the contributor — they click it in their browser, add a short description, and click "Create pull request" to open the PR upstream.
+
+   Pre-condition: the contributor's fork `main` branch needs to mirror upstream. If they haven't synced it recently, ask them to click "Sync fork" on the `main` branch in the GitHub UI before you run the script.
+
+   Revisions after editor feedback: edit the post on `drafts`, run the same script again. It force-pushes the branch and the existing PR updates automatically.
 
 ## Processing Contributor Submissions
 
