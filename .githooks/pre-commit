@@ -25,7 +25,7 @@ while IFS= read -r file; do
     fi
   done < <(grep -nP '\]\(https?://' "$file" || true)
 
-done < <(git diff --cached --name-only | grep '^_posts/.*\.md$')
+done < <(git diff --cached --name-only | grep -E '^(_posts|_authors)/.*\.md$')
 
 if [ $failed -ne 0 ]; then
   echo ""
