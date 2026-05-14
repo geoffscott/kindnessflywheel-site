@@ -1,14 +1,36 @@
 #!/usr/bin/env bash
-# Reject any _posts/*.md staged file whose first line isn't '---'.
-# Jekyll silently ignores front matter if a blank line precedes it.
+# Checks run against staged _posts/*.md files:
+#   1. First line must be '---' (Jekyll silently breaks on a leading blank line).
+#   2. All external Markdown links must open in a new window via Kramdown's
+#      inline attribute syntax: [text](https://...){:target="_blank" rel="noopener noreferrer"}
 
 failed=0
+
 while IFS= read -r file; do
+  # Check 1: front matter must start on line 1.
   first=$(head -1 "$file")
   if [ "$first" != "---" ]; then
     echo "pre-commit: $file — first line must be '---' (found: $(head -1 "$file" | cat -A))"
     failed=1
   fi
+
+  # Check 2: external links must carry {:target="_blank" ...}
+  while IFS= read -r match; do
+    lineno="${match%%:*}"
+    content="${match#*:}"
+    if echo "$content" | grep -qP '\]\(https?://[^)]+\)(?!\{:target="_blank")'; then
+      echo "pre-commit: $file:$lineno — external link missing {:target=\"_blank\" rel=\"noopener noreferrer\"}"
+      echo "  $content"
+      failed=1
+    fi
+  done < <(grep -nP '\]\(https?://' "$file" || true)
+
 done < <(git diff --cached --name-only | grep '^_posts/.*\.md$')
+
+if [ $failed -ne 0 ]; then
+  echo ""
+  echo "Fix external links by appending the Kramdown attribute after the closing ')':"
+  echo "  [Link Text](https://example.com){:target=\"_blank\" rel=\"noopener noreferrer\"}"
+fi
 
 exit $failed
