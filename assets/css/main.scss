@@ -1,0 +1,90 @@
+---
+# Jekyll SCSS entry point. Overrides Minimal Mistakes' default font + color
+# stacks with the brand tokens before importing the theme, then exposes the
+# design-token CSS variables for component-level use.
+---
+
+@charset "utf-8";
+
+// ─── Brand font overrides (must precede MM imports) ────────────────────
+// $sans-serif holds the display face (Fraunces) — MM uses it for headings,
+// nav, UI chrome. The variable name is vestigial; the value is what matters.
+$serif:             "Source Serif 4", Georgia, "Times New Roman", serif;
+$sans-serif:        "Fraunces", Georgia, "Times New Roman", serif;
+$sans-serif-narrow: "Fraunces", Georgia, "Times New Roman", serif;
+$monospace:         "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
+$global-font-family: $serif;
+$header-font-family: $sans-serif;
+
+// ─── Brand color overrides (must precede MM imports) ───────────────────
+// Mapped from design/tokens.yml. Ink against warm-light ground, with the
+// coral accent reserved for link hover and small punctuation moments.
+$kf-ink:    #2A2250;
+$kf-accent: #D95F3B;
+$kf-warm:   #F8F5F0;
+$kf-dark:   #13102A;
+$kf-subtle: #5A5670;
+
+$background-color:           $kf-warm;
+$text-color:                 $kf-ink;
+$muted-text-color:           $kf-subtle;
+$primary-color:              $kf-ink;
+$border-color:               rgba(42, 34, 80, 0.18);
+$footer-background-color:    mix($kf-ink, $kf-warm, 6%);
+$code-background-color:      rgba(42, 34, 80, 0.06);
+
+$link-color:                 $kf-ink;
+$link-color-hover:           $kf-accent;
+$link-color-visited:         $kf-ink;
+$link-color-active:          $kf-accent;
+
+$masthead-link-color:        $kf-ink;
+$masthead-link-color-hover:  $kf-accent;
+$navicon-link-color-hover:   rgba(42, 34, 80, 0.06);
+
+@import "design-tokens";
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// ─── Brand overrides (after MM, where we need to win on specificity) ───
+
+// Masthead lockup — give the brand mark room; shrink on mobile so nav fits.
+.site-logo img {
+  max-height: 4rem;
+  width: auto;
+}
+@media (max-width: 640px) {
+  .site-logo img {
+    max-height: 2.75rem;
+  }
+}
+
+// Footer links — visible underline so the CC and credit links are
+// discoverable when they share color with the body text.
+.page__footer a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+// Hero text on the dark indigo overlay — warm light, not stark white.
+.page__hero--overlay {
+  color: $kf-warm;
+
+  .page__title,
+  .page__lead {
+    color: $kf-warm;
+  }
+
+  // Buttons on dark hero — outlined warm light, fill warm light on hover
+  .btn--light-outline {
+    color: $kf-warm;
+    border-color: $kf-warm;
+
+    &:hover {
+      background-color: $kf-warm;
+      color: $kf-ink;
+      border-color: $kf-warm;
+    }
+  }
+}

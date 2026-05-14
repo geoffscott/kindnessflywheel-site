@@ -6,6 +6,13 @@ _site/
 vendor/
 Gemfile.lock
 
+# Python build artifacts from design/logo/
+__pycache__/
+*.pyc
+
+# Per-user Claude Code permissions
+.claude/settings.local.json
+
 # Per-contributor AI agent context (voice profiles, research, references).
 # Tracked only on each contributor's fork-private branch via `git add -f`.
 # See CONTRIBUTING.md "AI-Assisted Authoring Workflow" for the convention.
