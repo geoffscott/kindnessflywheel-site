@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Reject any _posts/*.md staged file whose first line isn't '---'.
+# Jekyll silently ignores front matter if a blank line precedes it.
+
+failed=0
+while IFS= read -r file; do
+  first=$(head -1 "$file")
+  if [ "$first" != "---" ]; then
+    echo "pre-commit: $file — first line must be '---' (found: $(head -1 "$file" | cat -A))"
+    failed=1
+  fi
+done < <(git diff --cached --name-only | grep '^_posts/.*\.md$')
+
+exit $failed
