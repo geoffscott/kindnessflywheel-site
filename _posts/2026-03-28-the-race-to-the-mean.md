@@ -1,4 +1,3 @@
-
 ---
 title: "The Race to the Mean"
 author: Geoff Scott
