@@ -71,30 +71,26 @@ After it runs, edit `voice.md` with your voice rules and reference posts. Drop a
 
 **Day-to-day authoring.** Stay on `drafts`. Your agent reads your voice profile and references on every session. Iterate freely; commits stay on `drafts` and only ever live in your fork.
 
-**Submitting a post.** When a draft is ready, branch off clean upstream `main` and bring just the post (and any author-bio updates) over:
+**Submitting a post.** Tell Claude Code to publish. It runs `scripts/submit-post.sh _posts/<your-post>.md`, which:
 
-    git fetch upstream
-    git checkout -b post/<slug> upstream/main
-    git checkout drafts -- _posts/<your-post>.md _authors/<your-slug>.md
-    git commit -m "post: <title>"
-    git push -u origin post/<slug>
+- Branches `post/<slug>` off your fork's `main` (so make sure you've clicked "Sync fork" on `main` in the GitHub UI first, so it mirrors upstream)
+- Copies everything that differs between `drafts` and `main`, **except** anything under `.claude/authors/*/` — so your post, any author bio updates, image assets, and incidental tweaks all come along, but your private voice profile and research do not
+- Makes one squashed commit (`post: <title>`) so the upstream PR is a single clean diff
+- Force-pushes to your fork
+- Prints a compare URL
 
-Then open a PR from `<your-fork>/post/<slug>` → `<upstream>/main`. The PR contains only the post and author bio — your voice profile and research stay private to your fork.
+Click the URL. GitHub shows you the one-commit diff. Add a sentence or two of description and click "Create pull request". That's the whole submission.
 
-**Handling editor feedback.** Make changes on `drafts` (with full agent context), then update the PR branch with the revised post:
+**Handling editor feedback.** Edit the post on `drafts` as usual, then tell Claude Code to publish again. The script force-pushes the same `post/<slug>` branch and the existing PR updates automatically — no second PR needed.
 
-    git checkout post/<slug>
-    git checkout drafts -- _posts/<your-post>.md
-    git commit --amend --no-edit
-    git push -f origin post/<slug>
+**Staying current with upstream.** Click "Sync fork" in the GitHub UI on:
 
-**Staying current with upstream.** Periodically:
+- Your `drafts` branch — pulls upstream improvements into your working branch so your new posts start from current state
+- Your `main` branch — required before publishing, so `scripts/submit-post.sh` branches off current upstream
 
-    git fetch upstream
-    git checkout main && git merge --ff-only upstream/main && git push origin main
-    git checkout drafts && git rebase main
+Both are one-click operations in the browser. No commands needed.
 
-**Why this works.** `.claude/authors/*/` is gitignored upstream, so per-contributor content is private by default. Files only become tracked on your fork's `drafts` branch (force-added by the setup script). PR branches branch off clean `main`, so they can't include private context — even by accident.
+**Why this works.** `.claude/authors/*/` is gitignored upstream, so per-contributor content is private by default. Files only become tracked on your fork's `drafts` branch (force-added by the setup script). `scripts/submit-post.sh` mechanically excludes that path from the PR branch, so private context cannot leak — even if you forget.
 
 
 ## Post Format
