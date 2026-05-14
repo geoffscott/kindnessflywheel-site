@@ -21,7 +21,7 @@ Read `CONTRIBUTING.md` for full editorial guidelines, post format, and the five 
    - `#Practice` — Real organizational stories, what happened when we tried this
    - `#Meta` — How this publication works, content philosophy, editorial process
 
-3. **Draft the post together.** Write in their voice, not yours. Before drafting, check whether a directory exists at `.claude/authors/<author-slug>/` (where the slug matches the contributor's `_authors/` filename). If it does, read every markdown file in it and follow the guidance — these contain voice rules, rhetorical references, and other writing guidance specific to that contributor. Keep the post grounded in what actually happened. Aim for 800-2000 words, but let the story dictate the length.
+3. **Draft the post together.** Write in their voice, not yours. Before drafting, check whether a directory exists at `.claude/authors/<author-slug>/` (where the slug matches the contributor's `_authors/` filename). If it does, read `voice.md` (the authoritative voice reference) and `README.md` (the directory's index) first. Treat the rest of the directory as on-demand reference: pull research, personas, people, and other context files when the post calls for that material — don't load the whole directory upfront, since it can run to hundreds of KB of background reference. Keep the post grounded in what actually happened. Aim for 800-2000 words, but let the story dictate the length.
 
 4. **Format correctly.** Create the file in `_posts/YYYY-MM-DD-title.md` with proper YAML frontmatter:
    ```yaml
