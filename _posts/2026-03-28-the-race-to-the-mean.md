@@ -102,26 +102,26 @@ The question I keep coming back to: what does it actually look like to build an 
 
 I have pieces of that answer. I don't have the whole thing. That's why this is an open inquiry.
 
-If you have a piece — from your own organization, your research, your experience — write it up. We've built [multiple paths to contribute](https://github.com/kindnessflywheel/kindnessflywheel-site/blob/main/CONTRIBUTING.md).
+If you have a piece — from your own organization, your research, your experience — write it up. We've built [multiple paths to contribute](https://github.com/kindnessflywheel/kindnessflywheel-site/blob/main/CONTRIBUTING.md){:target="_blank" rel="noopener noreferrer"}.
 
 ---
 
 *Sources:*
-- [Stanford AI Index 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report)
-- [McKinsey State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
-- [MIT "The GenAI Divide" 2025](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf)
-- [BCG AI at Work 2025](https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain) (n=10,600)
-- [WEF Future of Jobs 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/)
-- [Gallup State of the Global Workplace 2024](https://www.gallup.com/workplace/645758/state-of-the-global-workplace-2024-press-release.aspx)
-- [Eagle Hill Consulting 2024](https://www.eaglehillconsulting.com/news/nearly-half-of-workforce-reporting-burnout-2024/) (n=1,247)
-- [Deloitte Global Human Capital Trends 2024](https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html) (n=14,000)
-- [UKG Frontline Study 2025](https://www.ukg.com/company/newsroom/frontline-workers-who-use-ai-most-are-burned-out-least) (n=8,200)
-- [Levinson & Roter JAMA 1997](https://pubmed.ncbi.nlm.nih.gov/9032162/)
-- [Nembhard et al. Health Services Research 2022](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-6773.14016)
-- [Young-Hyman et al. Organization Science 2023](https://pubsonline.informs.org/doi/10.1287/orsc.2022.1622)
-- [Bloomberg/McKinsey layoff reporting 2025](https://www.bloomberg.com/news/articles/2025-12-15/mckinsey-executives-plot-job-cuts-in-slowdown-for-consulting-industry)
-- [TheStreet/KPMG fee reduction 2025](https://www.thestreet.com/latest-news/big-four-accounting-firms-bold-demand-is-a-warning-about-ai-adoption)
-- [Goldman Sachs/Reuters legal automation 2025](https://www.law.com/legaltechnews/2023/03/29/generative-ai-could-automate-almost-half-of-all-legal-tasks-goldman-sachs-estimates/)
+- [Stanford AI Index 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report){:target="_blank" rel="noopener noreferrer"}
+- [McKinsey State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai){:target="_blank" rel="noopener noreferrer"}
+- [MIT "The GenAI Divide" 2025](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf){:target="_blank" rel="noopener noreferrer"}
+- [BCG AI at Work 2025](https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain){:target="_blank" rel="noopener noreferrer"} (n=10,600)
+- [WEF Future of Jobs 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/){:target="_blank" rel="noopener noreferrer"}
+- [Gallup State of the Global Workplace 2024](https://www.gallup.com/workplace/645758/state-of-the-global-workplace-2024-press-release.aspx){:target="_blank" rel="noopener noreferrer"}
+- [Eagle Hill Consulting 2024](https://www.eaglehillconsulting.com/news/nearly-half-of-workforce-reporting-burnout-2024/){:target="_blank" rel="noopener noreferrer"} (n=1,247)
+- [Deloitte Global Human Capital Trends 2024](https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2024.html){:target="_blank" rel="noopener noreferrer"} (n=14,000)
+- [UKG Frontline Study 2025](https://www.ukg.com/company/newsroom/frontline-workers-who-use-ai-most-are-burned-out-least){:target="_blank" rel="noopener noreferrer"} (n=8,200)
+- [Levinson & Roter JAMA 1997](https://pubmed.ncbi.nlm.nih.gov/9032162/){:target="_blank" rel="noopener noreferrer"}
+- [Nembhard et al. Health Services Research 2022](https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-6773.14016){:target="_blank" rel="noopener noreferrer"}
+- [Young-Hyman et al. Organization Science 2023](https://pubsonline.informs.org/doi/10.1287/orsc.2022.1622){:target="_blank" rel="noopener noreferrer"}
+- [Bloomberg/McKinsey layoff reporting 2025](https://www.bloomberg.com/news/articles/2025-12-15/mckinsey-executives-plot-job-cuts-in-slowdown-for-consulting-industry){:target="_blank" rel="noopener noreferrer"}
+- [TheStreet/KPMG fee reduction 2025](https://www.thestreet.com/latest-news/big-four-accounting-firms-bold-demand-is-a-warning-about-ai-adoption){:target="_blank" rel="noopener noreferrer"}
+- [Goldman Sachs/Reuters legal automation 2025](https://www.law.com/legaltechnews/2023/03/29/generative-ai-could-automate-almost-half-of-all-legal-tasks-goldman-sachs-estimates/){:target="_blank" rel="noopener noreferrer"}
 
 ---
 
