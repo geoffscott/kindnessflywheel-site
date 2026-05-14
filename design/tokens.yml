@@ -1,0 +1,137 @@
+# The Kindness Flywheel — Design Tokens
+#
+# Single source of truth for colors, typography, and spacing.
+# Mirrored to:
+#   - _data/design.yml          (Jekyll-readable, for templates/includes)
+#   - assets/css/_design-tokens.scss  (CSS variables for stylesheets)
+#   - design/logo/spiral.py     (Python COLORS dict)
+#
+# When this file changes, run `design/build.sh` to regenerate the mirrors.
+
+meta:
+  name: The Kindness Flywheel
+  url: https://kindnessflywheel.org
+  philosophy: Considered Warmth
+  version: 1.0.0
+  license: CC-BY 4.0
+
+# ─────────────────────────────────────────────────────────────────────
+# COLOR
+# ─────────────────────────────────────────────────────────────────────
+# The palette is monochromatic restraint with a single warm accent.
+# Ink and ground come in light and dark variants; accent stays constant.
+color:
+  ink: '#2A2250'              # primary mark, body type — deep indigo
+  accent: '#D95F3B'           # terminus dot, accents only — warm coral
+  ground:
+    warm: '#F8F5F0'           # primary page background — warm light
+    white: '#FFFFFF'           # neutral white where warmth is wrong
+    dark: '#13102A'            # dark mode page background — very dark indigo
+    dark_plate: '#1A1638'      # dark mode card/plate — slightly lighter
+  ink_on_dark: '#F8F5F0'       # mark and type when on dark ground
+  subtle: '#5A5670'            # muted body text, captions, metadata
+  rule: '#2A2250'              # hairline rules — same as ink
+  rule_alpha: 0.4              # rule opacity (0–1)
+
+# ─────────────────────────────────────────────────────────────────────
+# TYPOGRAPHY
+# ─────────────────────────────────────────────────────────────────────
+type:
+  # Display face — variable serif; auto optical sizing gives characterful
+  # cuts at headline sizes and a calmer cut at UI/small sizes
+  display:
+    family: '"Fraunces", Georgia, "Times New Roman", serif'
+    weights: [400, 700]
+    italic: true
+    variable: true
+    axes: [opsz, wght, ital, SOFT]
+    use_for: [headings, wordmark, display, ui]
+  # Body face — Adobe's reading-grade serif, engineered for screen long-form
+  body:
+    family: '"Source Serif 4", Georgia, "Times New Roman", serif'
+    weights: [400, 600]
+    italic: true
+    variable: true
+    axes: [opsz, wght, ital]
+    use_for: [body, captions, blockquotes]
+  # Mono face — code, metadata, registration marks
+  mono:
+    family: '"JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace'
+    weights: [400, 700]
+    use_for: [code, metadata, footers]
+
+  # Type scale (in rem; 1rem = 16px default)
+  scale:
+    micro: 0.6875       # 11px — footers, registration marks
+    caption: 0.8125     # 13px — captions, metadata
+    body: 1.0           # 16px — body copy
+    body_lg: 1.125      # 18px — large body
+    h4: 1.25            # 20px
+    h3: 1.5             # 24px
+    h2: 2.0             # 32px
+    h1: 2.5             # 40px
+    display: 3.5        # 56px — page titles
+
+  # Line heights
+  leading:
+    tight: 1.1          # display
+    normal: 1.5         # body
+    loose: 1.7          # long-form reading
+
+# ─────────────────────────────────────────────────────────────────────
+# SPACING
+# ─────────────────────────────────────────────────────────────────────
+# 4px-base spacing scale. Use these tokens, not arbitrary px values.
+space:
+  xs: 0.25rem    # 4px
+  sm: 0.5rem     # 8px
+  md: 1rem       # 16px
+  lg: 1.5rem     # 24px
+  xl: 2rem       # 32px
+  xxl: 3rem      # 48px
+  xxxl: 4rem     # 64px
+  page_margin: 3.375rem   # 54px — matches specimen plates
+
+# ─────────────────────────────────────────────────────────────────────
+# LINE WEIGHTS
+# ─────────────────────────────────────────────────────────────────────
+# For hairline rules, dividers, and construction marks in design assets.
+stroke:
+  hairline: 0.4       # specimen frames, dividers
+  thin: 0.25          # construction marks, ticks
+  rule: 1.0           # body rules
+
+# ─────────────────────────────────────────────────────────────────────
+# RADIUS
+# ─────────────────────────────────────────────────────────────────────
+radius:
+  none: 0
+  sm: 2px       # cards
+  md: 4px       # specimen plates
+  pill: 999px
+
+# ─────────────────────────────────────────────────────────────────────
+# LOGO GEOMETRY
+# ─────────────────────────────────────────────────────────────────────
+# Parameters for the production spiral mark. These are mirrored in
+# design/logo/spiral.py — if you edit one, edit both, then run
+# `python design/logo/build_svg.py design/logo/masters/`.
+logo:
+  type: logarithmic_spiral
+  formula: 'r = a · exp(b · θ)'
+  growth_b: 0.20
+  revolutions: 2.3
+  start_phase_deg: 180
+  stroke_start: 0.6
+  stroke_end_factor: 0.075
+  terminus_dot: true
+  terminus_dot_factor: 0.55
+
+# ─────────────────────────────────────────────────────────────────────
+# BREAKPOINTS
+# ─────────────────────────────────────────────────────────────────────
+breakpoint:
+  sm: 640px
+  md: 768px
+  lg: 1024px
+  xl: 1280px

@@ -1,0 +1,97 @@
+// _design-tokens.scss
+//
+// CSS custom properties for The Kindness Flywheel design system.
+// Import this BEFORE any other stylesheet that consumes the variables.
+//
+// Auto-generated from design/tokens.yml. To regenerate:
+//   $ design/build.sh
+//
+// Usage in SCSS:
+//   color: var(--kf-ink);
+//   font-family: var(--kf-type-display);
+//   margin-bottom: var(--kf-space-lg);
+
+:root {
+  // ─── color ────────────────────────────────────────────────────
+  --kf-ink: #2A2250;
+  --kf-accent: #D95F3B;
+  --kf-ground-warm: #F8F5F0;
+  --kf-ground-white: #FFFFFF;
+  --kf-ground-dark: #13102A;
+  --kf-ground-dark-plate: #1A1638;
+  --kf-ink-on-dark: #F8F5F0;
+  --kf-subtle: #5A5670;
+  --kf-rule: rgba(42, 34, 80, 0.4);
+
+  // Semantic aliases — use these in component CSS, not the raw tokens.
+  // Light theme defaults.
+  --kf-page-bg: var(--kf-ground-warm);
+  --kf-page-fg: var(--kf-ink);
+  --kf-page-fg-subtle: var(--kf-subtle);
+  --kf-link: var(--kf-ink);
+  --kf-link-hover: var(--kf-accent);
+
+  // ─── typography ───────────────────────────────────────────────
+  --kf-type-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --kf-type-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --kf-type-mono: "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
+
+  // Type scale
+  --kf-text-micro: 0.6875rem;
+  --kf-text-caption: 0.8125rem;
+  --kf-text-body: 1rem;
+  --kf-text-body-lg: 1.125rem;
+  --kf-text-h4: 1.25rem;
+  --kf-text-h3: 1.5rem;
+  --kf-text-h2: 2rem;
+  --kf-text-h1: 2.5rem;
+  --kf-text-display: 3.5rem;
+
+  // Line height
+  --kf-leading-tight: 1.1;
+  --kf-leading-normal: 1.5;
+  --kf-leading-loose: 1.7;
+
+  // ─── spacing ──────────────────────────────────────────────────
+  --kf-space-xs: 0.25rem;
+  --kf-space-sm: 0.5rem;
+  --kf-space-md: 1rem;
+  --kf-space-lg: 1.5rem;
+  --kf-space-xl: 2rem;
+  --kf-space-xxl: 3rem;
+  --kf-space-xxxl: 4rem;
+  --kf-page-margin: 3.375rem;
+
+  // ─── shape ────────────────────────────────────────────────────
+  --kf-radius-sm: 2px;
+  --kf-radius-md: 4px;
+  --kf-radius-pill: 999px;
+
+  // ─── motion ───────────────────────────────────────────────────
+  // Restrained transitions — like everything else in the system.
+  --kf-duration-fast: 120ms;
+  --kf-duration-base: 200ms;
+  --kf-ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// ─── dark mode ──────────────────────────────────────────────────
+// Swap semantic aliases. Raw tokens stay constant.
+@media (prefers-color-scheme: dark) {
+  :root {
+    --kf-page-bg: var(--kf-ground-dark);
+    --kf-page-fg: var(--kf-ink-on-dark);
+    --kf-page-fg-subtle: #8A86A0;
+    --kf-link: var(--kf-ink-on-dark);
+    --kf-rule: rgba(248, 245, 240, 0.3);
+  }
+}
+
+// Manual override — `<html data-theme="dark">` forces dark mode
+// regardless of system preference. Useful for theme toggles.
+[data-theme="dark"] {
+  --kf-page-bg: var(--kf-ground-dark);
+  --kf-page-fg: var(--kf-ink-on-dark);
+  --kf-page-fg-subtle: #8A86A0;
+  --kf-link: var(--kf-ink-on-dark);
+  --kf-rule: rgba(248, 245, 240, 0.3);
+}

@@ -1,0 +1,30 @@
+# Jekyll-readable mirror of design/tokens.yml.
+# This file is consumed by templates via `site.data.design.*`.
+# Edit the source at design/tokens.yml and run `design/build.sh` to refresh.
+
+color:
+  ink: '#2A2250'
+  accent: '#D95F3B'
+  ground:
+    warm: '#F8F5F0'
+    white: '#FFFFFF'
+    dark: '#13102A'
+    dark_plate: '#1A1638'
+  ink_on_dark: '#F8F5F0'
+  subtle: '#5A5670'
+
+type:
+  display: '"Fraunces", Georgia, "Times New Roman", serif'
+  body: '"Source Serif 4", Georgia, "Times New Roman", serif'
+  mono: '"JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace'
+
+logo:
+  mark: /assets/images/brand/mark.svg
+  mark_dark: /assets/images/brand/mark-dark.svg
+  lockup_horizontal: /assets/images/brand/lockup-horizontal.svg
+  lockup_horizontal_dark: /assets/images/brand/lockup-horizontal-dark.svg
+  favicon: /assets/images/brand/favicon.svg
+  favicon_32: /assets/images/brand/favicon-32.png
+  favicon_16: /assets/images/brand/favicon-16.png
+  apple_touch_icon: /assets/images/brand/apple-touch-icon.png
+  og_image: /assets/images/brand/og-image.png
