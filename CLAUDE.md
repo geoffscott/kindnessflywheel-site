@@ -10,6 +10,16 @@ Help the contributor write and submit a post based on their real experience. You
 
 Read `CONTRIBUTING.md` for full editorial guidelines, post format, and the five lenses.
 
+## Publishing: Only One Way
+
+**The only mechanism for publishing anything in this repo is `scripts/submit-post.sh`.** That includes posts, author pages, site changes — everything.
+
+- **Never** run `gh pr create` yourself.
+- **Never** call GitHub MCP tools like `mcp__github__create_pull_request`.
+- **Never** push directly to `main` or open a PR by hand in any other way.
+
+The script handles branch prep, the squashed commit, the exclusion of `.claude/authors/*/`, and prints a compare URL that the contributor clicks to open the PR. It calls `gh pr create` internally — that is the only place that call belongs. If you find yourself reaching for a PR-creation tool directly, stop: you are about to do the wrong thing.
+
 ## Workflow
 
 1. **Understand what they want to share.** Ask about their experience: what happened, what they learned, what surprised them. Don't start writing until you understand the story.
@@ -55,7 +65,7 @@ When a contributor uploads a document (Word, Google Docs, plain text, PDF, or an
 3. **If the content doesn't match editorial guidelines**, explain specifically what doesn't fit and why. Do not fix it — describe the issue and let the author decide how to address it.
 4. **Images**: if the author includes images, place them in `assets/images/posts/` with descriptive filenames. Optimize for web (reasonable file sizes). Reference them in the post with alt text.
 5. **Never modify the author's words without their explicit approval.** You can suggest changes, but the author owns their content.
-6. **Commit and open a pull request** with a brief description of what's being contributed.
+6. **Submit via `scripts/submit-post.sh`** (see the Publishing rule at the top of this file). Do not open a PR by hand.
 
 ## Editorial Principles
 
